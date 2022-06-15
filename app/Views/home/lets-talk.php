@@ -1,4 +1,4 @@
-<?= $this->include('layouts/template'); ?>
+<?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
 <div class="content">
     <main class="talk-main">
