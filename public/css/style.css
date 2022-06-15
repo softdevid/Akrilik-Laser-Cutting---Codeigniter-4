@@ -1,6 +1,14 @@
 .talk-main {
-    padding: 80px;
+  padding: 80px;
 }
 .talk-title-wrap {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.background-portfolio {
+  background-color: white;
+}
+
+.background-portfolio ul {
+  padding-top: 6rem;
 }
