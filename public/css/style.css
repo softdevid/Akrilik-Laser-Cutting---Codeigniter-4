@@ -36,3 +36,7 @@
 .card-hover .text-bottom {
   padding-top: 8rem;
 }
+
+.btn {
+  border-radius: 0;
+}
