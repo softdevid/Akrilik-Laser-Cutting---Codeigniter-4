@@ -11,9 +11,6 @@
 <body>
     <?= $this->include('layouts/navbar'); ?>
     <?= $this->renderSection('content'); ?>
-    <div class="container">
-        <h1><?= $title?></h1>
-    </div>
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
