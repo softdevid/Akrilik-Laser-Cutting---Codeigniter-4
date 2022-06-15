@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="page-title-content">
+                        <div class="col-lg-6 col-xl-9">
                             <h1>Let's Talk</h1>
                         </div>
                     </div>
