@@ -5,7 +5,11 @@ namespace App\Controllers;
 class Home extends BaseController
 {
     public function index()
+    
     {
-        return view('welcome_message');
+        $data = [
+            'title' => 'HOME | MEKAR LASER CUTTING DIGITAL'
+        ];
+        return view('home/index', $data);
     }
 }
