@@ -27,7 +27,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Pembuatan Website</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Produksi huruf timbul</h5>
                                 <p class="card-text">This is a short card.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Produksi Neon Box</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Produksi Papan Reklame</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Produksi Neon Box</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Produksi Huruf Timbul</h5>
                                 <p class="card-text">This is a short card.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Produksi Papan Reklame</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Pembuatan Website</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Pembuatan Aplikasi Dekstop</h5>
                                 <p class="card-text">This is a short card.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" style="border-radius:0;">Learn More</a>
                             </div>
                         </div>
                     </div>

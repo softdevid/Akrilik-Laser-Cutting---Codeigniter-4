@@ -16,3 +16,7 @@
 .background-portfolio ul {
   padding-top: 6rem;
 }
+
+.btn {
+  border-radius: 0;
+}
