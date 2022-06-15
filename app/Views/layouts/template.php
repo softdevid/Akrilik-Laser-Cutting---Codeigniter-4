@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
+
 <body>
     <?= $this->include('layouts/navbar'); ?>
     <?= $this->renderSection('content'); ?>
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
