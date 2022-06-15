@@ -15,4 +15,24 @@
 
 .background-portfolio ul {
   padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.card-hover img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover .text-bottom {
+  padding-top: 8rem;
 }
