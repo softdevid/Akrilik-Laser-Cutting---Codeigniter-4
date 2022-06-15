@@ -8,7 +8,7 @@ class Home extends BaseController
     
     {
         $data = [
-            'title' => 'HOME | MEKAR LASER CUTTING DIGITAL'
+            'title' => 'HOME'
         ];
         return view('home/index', $data);
     }
@@ -16,7 +16,7 @@ class Home extends BaseController
     
     {
         $data = [
-            'title' => 'SERVICES | MEKAR LASER CUTTING DIGITAL'
+            'title' => 'SERVICES'
         ];
         return view('home/services', $data);
     }
@@ -24,7 +24,7 @@ class Home extends BaseController
     
     {
         $data = [
-            'title' => 'LETS TALK | MEKAR LASER CUTTING DIGITAL'
+            'title' => 'LETS TALK'
         ];
         return view('home/lets-talk', $data);
     }
@@ -32,7 +32,7 @@ class Home extends BaseController
     
     {
         $data = [
-            'title' => 'PORTFOLIO | MEKAR LASER CUTTING DIGITAL'
+            'title' => 'PORTFOLIO'
         ];
         return view('home/portfolio', $data);
     }
@@ -40,7 +40,7 @@ class Home extends BaseController
     
     {
         $data = [
-            'title' => 'BLOG | MEKAR LASER CUTTING DIGITAL'
+            'title' => 'BLOG'
         ];
         return view('home/blog', $data);
     }
