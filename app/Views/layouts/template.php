@@ -7,6 +7,7 @@
     <title><?= $title; ?> | Mekar Laser Cutting Digital</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/fontawesome/css/all.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 
     <!-- scroll top button -->
 
