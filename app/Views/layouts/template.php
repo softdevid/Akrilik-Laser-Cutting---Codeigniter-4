@@ -16,6 +16,7 @@
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
+    <a class="whatsapp" href="#" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
     <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 
     <!-- scroll top button -->
