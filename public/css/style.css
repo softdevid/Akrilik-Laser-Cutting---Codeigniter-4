@@ -75,3 +75,15 @@
     bottom: 15px;
   }
 }
+
+.head-intro-inner .head-content-slot {
+  justify-content: center;
+  margin: 3px 0;
+  flex: auto;
+}
+
+.left-nav {
+  position: relative;
+  flex: none;
+  margin: 0 10px;
+}
