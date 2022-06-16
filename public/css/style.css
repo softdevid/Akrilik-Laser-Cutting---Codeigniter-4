@@ -37,36 +37,28 @@
   padding-top: 8rem;
 }
 
-.btn {
-  border-radius: 0;
-}
-
-#card {
-  border: none;
-}
-
 #button {
   border-radius: 0;
 }
 
 #gambar {
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .back-to-top {
   position: fixed;
   display: none;
-  background: #18d26e;
+  background: white;
   color: #fff;
   width: 44px;
   height: 44px;
   text-align: center;
   line-height: 1;
   font-size: 16px;
-  border-radius: 50%;
+  border-radius: 10px;
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
@@ -74,8 +66,8 @@
 }
 
 .back-to-top i {
-  padding-top: 12px;
-  color: #fff;
+  padding-top: 8px;
+  color: black;
 }
 
 @media (max-width: 768px) {
