@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -24,6 +25,13 @@
     <!-- scroll top button -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+    AOS.init({
+        once: true
+    });
+    </script>
 
     <script>
     //Get the button:
@@ -48,7 +56,7 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
     </script>
-    <script src="/javascript/portfolio.js"></script>
+    <!-- <script src="/javascript/portfolio.js"></script> -->
 </body>
 
 </html>

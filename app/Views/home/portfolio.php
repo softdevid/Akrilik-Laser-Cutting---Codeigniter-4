@@ -45,7 +45,8 @@
                 tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card bg-black overlay card-hover1 border-0">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
                             <a href="#" class="text-white">
                                 <img src="/img/portfolio.png" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
@@ -56,7 +57,8 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover2 border-0">
+                        <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="100">
                             <a href="#" class="text-white">
                                 <img src="/img/kanopi.jpg" class="card-img" alt="Kanopi">
                                 <div class="overlay-content card-img-overlay text-bottom">
@@ -67,7 +69,8 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover3 border-0">
+                        <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="150">
                             <a href="#" class="text-white">
                                 <img src="/img/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
                                 <div class="overlay-content card-img-overlay text-bottom">
@@ -91,7 +94,8 @@
             <div class="tab-pane fade" id="pills-besi" role="tabpanel" aria-labelledby="pills-besi-tab" tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card bg-black overlay card-hover2 border-0">
+                        <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
                             <a href="#" class="text-white">
                                 <img src="/img/kanopi.jpg" class="card-img" alt="Kanopi">
                                 <div class="overlay-content card-img-overlay text-bottom">
@@ -102,7 +106,8 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover3 border-0">
+                        <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="100">
                             <a href="#" class="text-white">
                                 <img src="/img/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
                                 <div class="overlay-content card-img-overlay text-bottom">
@@ -117,7 +122,8 @@
             <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab" tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card bg-black overlay card-hover1 border-0">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
                             <a href="#" class="text-white">
                                 <img src="/img/portfolio.png" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
@@ -133,7 +139,8 @@
                 tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card bg-black overlay card-hover1 border-0">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
                             <a href="#" class="text-white">
                                 <img src="/img/portfolio.png" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
