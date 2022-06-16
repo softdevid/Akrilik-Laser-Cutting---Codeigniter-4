@@ -1,6 +1,12 @@
+service
+
+
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
 
+<div>
+    <img src="/img/1.jpg" alt="" style="width: 100%; max-height: 300px;">
+</div>
 
 <div class="container">
     <div class="p-5">
@@ -26,49 +32,49 @@
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+            <div class="tab-pane fade show active mt-5" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
                 tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Pembuatan Website</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi huruf timbul</h5>
                                 <p class="card-text">This is a short card.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Neon Box</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Papan Reklame</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -78,34 +84,34 @@
                 tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Neon Box</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Huruf Timbul</h5>
                                 <p class="card-text">This is a short card.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Papan Reklame</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -115,45 +121,45 @@
                 aria-labelledby="pills-digitalmarketing-tab" tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Pembuatan Website</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Pembuatan Aplikasi Dekstop</h5>
                                 <p class="card-text">This is a short card.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
+                        <div class="h-100" id="card">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-primary">Learn More</a>
+                                <a href="#" class="btn btn-dark button">Learn More</a>
                             </div>
                         </div>
                     </div>
