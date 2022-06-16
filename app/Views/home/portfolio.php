@@ -29,6 +29,11 @@
                 <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web"
                     type="button" role="tab" aria-controls="pills-web" aria-selected="false">Web Development</button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-creative-tab" data-bs-toggle="pill" data-bs-target="#pills-creative"
+                    type="button" role="tab" aria-controls="pills-creative" aria-selected="false">Digital
+                    Creative</button>
+            </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
@@ -39,7 +44,7 @@
                             <a href="#" class="text-white">
                                 <img src="/img/portfolio.png" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
-                                    <h5>Website Development</h5>
+                                    <h5>Website Development Portfolio</h5>
                                     <span>Digital Creative, Website Development</span>
                                 </div>
                             </a>
@@ -111,7 +116,23 @@
                             <a href="#" class="text-white">
                                 <img src="/img/portfolio.png" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
-                                    <h5>Website Development</h5>
+                                    <h5>Website Development Portfolio</h5>
+                                    <span>Digital Creative, Website Development</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-creative" role="tabpanel" aria-labelledby="pills-creative-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover border-0">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio.png" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Website Development Portfolio</h5>
                                     <span>Digital Creative, Website Development</span>
                                 </div>
                             </a>
