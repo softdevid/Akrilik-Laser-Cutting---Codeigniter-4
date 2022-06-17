@@ -34,7 +34,7 @@
     </button>
 </div>
 
-<div class="container">
+<div class="container py-5">
     <div id="judul">
         <h1>Prologue</h1>
         <p>Little bit about us</p>

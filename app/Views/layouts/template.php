@@ -18,7 +18,7 @@
     <footer class="bd-footer py-4 py-md-5 mt-5 bg-light">
         <div class="container py-4 py-md-5 px-4 px-md-3">
             <div class="row">
-                <div class="col-lg-3 mb-3 text-dark">
+                <div class="col-lg-3 mb-3 text-">
                     <h5>Mekar Laser</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="#" class="nav-link"><i class="fa-solid fa-map-location-dot"></i> JL. Lingkar Purbalingga</a></li>
@@ -26,7 +26,7 @@
                         <li class="mb-2"><a href="tel:0888895258" class="nav-link"><i class="fa-solid fa-phone"></i> +62 xxx-xxxx-xxxx</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 text-dark">
+                <div class="col-6 col-lg-3 mb-3 text-">
                     <h5>Menu</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="#" class="nav-link"><i class="fa-solid fa-home"></i> Home</a></li>
@@ -35,7 +35,7 @@
                         <li class="mb-2"><a href="#" class="nav-link"><i class="fa-solid fa-phone"></i> Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 text-dark">
+                <div class="col-6 col-lg-3 mb-3 text-">
                     <h5>USEFUL LINKS</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="/portofolio" class="nav-link"> Portofolio</a></li>
@@ -47,7 +47,7 @@
                         <li class="mb-2"><a href="/terms-condition" class="nav-link">Terms Condition</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3 text-dark">
+                <div class="col-6 col-lg-3 mb-3 text-">
                     <h5>Partner</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="#" class="nav-link">Bima Helm</a></li>
@@ -58,9 +58,14 @@
         </div>
     </footer>
 
-    <div class="copyright">
-        <b>&copy 2022 by Mekar Laser Cutting Digital</b>
-    </div>
+    <footer class="main-footer">
+        <!-- To the right -->
+        <div class="float-right d-none d-sm-inline">
+            Anything you want
+        </div>
+        <!-- Default to the left -->
+        <strong>&copy 2022 by FCS PROJECT</strong>
+    </footer>
 
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
     <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
