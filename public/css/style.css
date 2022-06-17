@@ -89,6 +89,24 @@
 .card-hover3 .text-bottom {
   padding-top: 8rem;
 }
+.card-hover4 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover4:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover4 .text-bottom {
+  padding-top: 7.5rem;
+}
 
 #button {
   border-radius: 0;
@@ -162,7 +180,7 @@
   color: white;
 }
 
-#sticky {  
+#sticky {
   padding: 5px;
   position: sticky;
   top: 0;
