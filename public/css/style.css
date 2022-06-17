@@ -204,7 +204,7 @@ body {
 }
 
 #judul {
-  font-size: 32px;
+  /* font-size: 32px; */
   color: #111;
   text-transform: uppercase;
   text-align: center;
@@ -212,3 +212,30 @@ body {
   position: relative;
   padding-bottom: 15px;
 }
+
+#judul::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+#judul::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: black;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+
+/* style footer */
+
+/* end style footer */
