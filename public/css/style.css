@@ -1,3 +1,16 @@
+/* .tab-pane.active {
+  animation: slide-down 1s ease-out;
+}
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
 .talk-main {
   padding: 80px;
 }
@@ -22,7 +35,7 @@
   padding-bottom: 2rem;
 }
 
-.card-hover img {
+.card-hover1 img {
   background: black;
   overflow: hidden;
   object-fit: cover;
@@ -30,14 +43,50 @@
   transition: 0.3s;
 }
 
-.card-hover:hover img {
+.card-hover1:hover img {
   opacity: 0.3;
   background: black;
   overflow: hidden;
   object-fit: cover;
 }
 
-.card-hover .text-bottom {
+.card-hover1 .text-bottom {
+  padding-top: 8rem;
+}
+.card-hover2 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover2:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover2 .text-bottom {
+  padding-top: 8rem;
+}
+.card-hover3 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover3:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover3 .text-bottom {
   padding-top: 8rem;
 }
 
@@ -91,7 +140,6 @@
   flex: none;
   margin: 0 10px;
 }
-
 
 .whatsapp {
   position: fixed;
