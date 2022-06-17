@@ -29,37 +29,47 @@
                             <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Pembuatan Website</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Website menjadi fasilitas sangat penting untuk pemasaran dan scale up bisnis di era digital ini. Miliki sekarang!</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/3.png" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi huruf timbul</h5>
-                                <p class="card-text">This is a short card.</p>
+                                <p class="card-text">Huruf timbul kini menjadi bagian penting dalam Branding Offline. Banyaknya manfaat dan kegunaan menjadikan huruf timbul makin populer.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/neonbox.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Neon Box</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text">Neon box merupakan produk paling penting yang harus dimiliki setiap pengusaha baik pemula maupun profesional. Miliki sekarang!</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/reklame.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Papan Reklame</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Papan reklame, papan iklan, atau baliho merupakan salah satu media luar ruang yang memiliki tujuan menyampaikan pesan mengenai suatu produk atau jasa bahkan individu-individu yang ingin mendongkrak popularitas.</p>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100 border-0">
+                            <img src="/img/services/dekstop.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Pembuatan Aplikasi Dekstop</h5>
+                                <p class="card-text">Aplikasi desktop adalah aplikasi yang berjalan di desktop atau laptop komputer pengguna, manfaat utama dari aplikasi desktop adalah efisiensi tinggi dan fleksibilitas antarmuka pengguna.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
@@ -70,30 +80,30 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/neonbox.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Neon Box</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Neon box merupakan produk paling penting yang harus dimiliki setiap pengusaha baik pemula maupun profesional. Miliki sekarang!</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/3.png" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Huruf Timbul</h5>
-                                <p class="card-text">This is a short card.</p>
+                                <p class="card-text">Huruf timbul kini menjadi bagian penting dalam Branding Offline. Banyaknya manfaat dan kegunaan menjadikan huruf timbul makin populer.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/reklame.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Produksi Papan Reklame</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text">Papan reklame, papan iklan, atau baliho merupakan salah satu media luar ruang yang memiliki tujuan menyampaikan pesan mengenai suatu produk atau jasa bahkan individu-individu yang ingin mendongkrak popularitas.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
@@ -107,38 +117,18 @@
                             <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Pembuatan Website</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Website menjadi fasilitas sangat penting untuk pemasaran dan scale up bisnis di era digital ini. Miliki sekarang!</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/services/dekstop.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
                                 <h5 class="card-title">Pembuatan Aplikasi Dekstop</h5>
-                                <p class="card-text">This is a short card.</p>
+                                <p class="card-text">Aplikasi desktop adalah aplikasi yang berjalan di desktop atau laptop komputer pengguna, manfaat utama dari aplikasi desktop adalah efisiensi tinggi dan fleksibilitas antarmuka pengguna.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
-                            <div class="card-body mt-3">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
-                            <div class="card-body mt-3">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-dark button">Learn More</a>
                             </div>
                         </div>
                     </div>
