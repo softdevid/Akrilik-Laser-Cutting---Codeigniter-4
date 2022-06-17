@@ -1,44 +1,184 @@
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
-<ul class="tabs-block">
-    <div class="slider"></div>
-    <li>Alpha</li>
-    <li>Bravo</li>
-    <li>Charlie</li>
-    <li>Delta</li>
-</ul>
-
-<div class="article-block">
-    <div class="article">
-        <h1>Alpha Title</h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe corporis laborum commodi ipsa consectetur
-        blanditiis eum praesentium vero sed, alias totam earum, ut et veniam similique dolor dignissimos autem ad?
-        Eveniet porro quaerat maiores non quibusdam
-        doloremque ea rerum repellat, sapiente mollitia temporibus neque quas ut odio tempora! Amet, ullam!
-    </div>
-    <div class="article">
-        <h1>Bravo Title</h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita temporibus ab aliquid ipsum cum soluta eos ad
-        molestias neque cumque. Cupiditate laborum nam necessitatibus saepe inventore voluptates soluta? Quisquam, ea!
-    </div>
-    <div class="article">
-        <h1>Charlie Title</h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, itaque quae! Cupiditate sed consequatur, delectus
-        magni distinctio quam asperiores amet aliquid architecto animi tenetur sit repudiandae deserunt impedit
-        voluptate, corporis eius nobis sequi
-        dolore adipisci, illum quae soluta! Quam dolor perspiciatis repellat maxime quae molestiae sint a nam
-        exercitationem ipsum maiores praesentium magnam suscipit excepturi illo minima, illum blanditiis nesciunt?
-        Voluptatem quia at provident ad ipsa ratione,
-        officia sequi error aliquid, expedita consectetur tempore eius et voluptate debitis praesentium beatae libero
-        minus qui. </br></br> Sequi dolore dolor quasi voluptatibus dignissimos iste. Eos pariatur sit vitae
-        perspiciatis voluptas, dolorum quam asperiores
-        tenetur, earum dignissimos ad veniam? Aliquid excepturi dolorum sed adipisci, iure culpa dolor eos itaque,
-        reprehenderit unde praesentium magnam perspiciatis blanditiis?
-    </div>
-    <div class="article">
-        <h1>Delta Title</h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rem quidem amet voluptas quo sit beatae, eum
-        adipisci doloribus repellat?
+<div class="container">
+    <div class="background-portfolio">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active button" id="pills-all-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
+                    aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-timbul-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-timbul" type="button" role="tab" aria-controls="pills-timbul"
+                    aria-selected="false">Huruf Timbul</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-neonbox-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-neonbox" type="button" role="tab" aria-controls="pills-neonbox"
+                    aria-selected="false">Neonbox</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-reklame-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-reklame" type="button" role="tab" aria-controls="pills-reklame"
+                    aria-selected="false">Project
+                    Reklame</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-besi-tab" data-bs-toggle="pill" data-bs-target="#pills-besi"
+                    type="button" role="tab" aria-controls="pills-besi" aria-selected="false">Pekerjaan Besi dan
+                    Aluminium</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web"
+                    type="button" role="tab" aria-controls="pills-web" aria-selected="false">Web Development</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-creative-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-creative" type="button" role="tab" aria-controls="pills-creative"
+                    aria-selected="false">Digital
+                    Creative</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Website Development Portfolio</h5>
+                                    <span>Digital Creative, Website Development</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="100">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/kanopi.jpg" class="card-img" alt="Kanopi">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Kanopi</h5>
+                                    <span>Pekerjaan Besi dan Aluminium</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="150">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Pagar Besi</h5>
+                                    <span>Pekerjaan Besi dan Aluminium</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="200">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Foto Bali</h5>
+                                    <span>Huruf Timbul</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-timbul" role="tabpanel" aria-labelledby="pills-timbul-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Foto Bali</h5>
+                                    <span>Huruf Timbul</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-neonbox" role="tabpanel" aria-labelledby="pills-neonbox-tab"
+                tabindex="0">
+                ...</div>
+            <div class="tab-pane fade" id="pills-reklame" role="tabpanel" aria-labelledby="pills-reklame-tab"
+                tabindex="0">
+                ...</div>
+            <div class="tab-pane fade" id="pills-besi" role="tabpanel" aria-labelledby="pills-besi-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/kanopi.jpg" class="card-img" alt="Kanopi">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Kanopi</h5>
+                                    <span>Pekerjaan Besi dan Aluminium</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="100">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Pagar Besi</h5>
+                                    <span>Pekerjaan Besi dan Aluminium</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Website Development Portfolio</h5>
+                                    <span>Digital Creative, Website Development</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-creative" role="tabpanel" aria-labelledby="pills-creative-tab"
+                tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Website Development Portfolio</h5>
+                                    <span>Digital Creative, Website Development</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <?= $this->endSection(); ?>

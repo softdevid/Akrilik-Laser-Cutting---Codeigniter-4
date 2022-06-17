@@ -1,55 +1,67 @@
-console.clear();
-let targets = document.querySelectorAll("li");
-let articles = document.querySelectorAll(".article");
-let activeTab = 0;
-let old = 0;
-let heights = [];
-let dur = 0.4;
-let animation;
+const tl = new TimelineMax();
 
-for (let i = 0; i < targets.length; i++) {
-  targets[i].index = i;
-  heights.push(articles[i].offsetHeight); // get height of each article
-  gsap.set(articles[i], { top: 0, y: -heights[i] }); // push all articles up out of view
-  targets[i].addEventListener("click", doCoolStuff);
-}
-// set initial article and position bubble slider on first tab
-gsap.set(articles[0], { y: 0 });
-gsap.set(".slider", {
-  x: targets[0].offsetLeft,
-  width: targets[0].offsetWidth,
-});
-gsap.set(targets[0], { color: "#fff" });
-gsap.set(".article-block", { height: heights[0] });
-
-function doCoolStuff() {
-  // check if clicked target is new and if the timeline is currently active
-  if (this.index != activeTab) {
-    //if there's an animation in-progress, jump to the end immediately so there aren't weird overlaps.
-    if (animation && animation.isActive()) {
-      animation.progress(1);
-    }
-    animation = gsap.timeline({ defaults: { duration: 0.4 } });
-    old = activeTab;
-    activeTab = this.index;
-    // animate bubble slider to clicked target
-    animation.to(".slider", {
-      x: targets[activeTab].offsetLeft,
-      width: targets[activeTab].offsetWidth,
-    });
-    // change text color on old and new tab targets
-    animation.to(targets[old], { color: "#1bb1a5", ease: "none" }, 0);
-    animation.to(targets[activeTab], { color: "#fff", ease: "none" }, 0);
-    // slide current article down out of view and then set it to starting position at top
-    animation.to(articles[old], { y: heights[old], ease: "back.in" }, 0);
-    animation.set(articles[old], { y: -heights[old] });
-    // resize article block to accommodate new content
-    animation.to(".article-block", { height: heights[activeTab] });
-    // slide in new article
-    animation.to(
-      articles[activeTab],
-      { duration: 1, y: 0, ease: "elastic" },
-      "-=0.25"
-    );
+$(".nav-pills li").on("click", function () {
+  const $label = $(".label");
+  const $this = $(this);
+  const el_width = $this.width();
+  const offset_left = $this.offset();
+  const initTabNum = $this.data("menu");
+  const $article = $(".article");
+  const $show = $(".show");
+  function step_1() {
+    $article.removeClass("show");
   }
-}
+  function step_2() {
+    $(".num_" + initTabNum).addClass("show");
+  }
+
+  if (!tl.isActive()) {
+    tl.to($article, 0.05, {
+      y: 100,
+      ease: Back.easeOut,
+      onComplete: step_1,
+    }).fromTo(
+      $(".num_" + initTabNum),
+      0.75,
+      {
+        onStart: step_2,
+        y: -100,
+      },
+      { y: 0, ease: Power4.easeOut, immediateRender: false }
+    );
+
+    $label.offset({ left: offset_left.left }).css("width", el_width);
+
+    $(".tabs-block li").removeClass("active");
+
+    $this.addClass("active");
+  }
+});
+
+const initSize = function () {
+  const start_element = $(".tabs-block li:first-of-type");
+  const $label = $(".label");
+  const initWidth = start_element.css("width");
+  $label.css("width", initWidth);
+};
+initSize();
+
+// gsap.from(".card-hover1", {
+//   duration: 1,
+//   opacity: 0,
+//   y: -100,
+// });
+
+// gsap.from(".card-hover2", {
+//   duration: 1,
+//   opacity: 0,
+//   delay: 0.5,
+//   y: -100,
+// });
+
+// gsap.from(".card-hover3", {
+//   duration: 1,
+//   opacity: 0,
+//   delay: 1,
+//   y: -100,
+// });
