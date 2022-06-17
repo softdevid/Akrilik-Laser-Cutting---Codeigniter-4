@@ -14,6 +14,7 @@
 .talk-main {
   padding: 80px;
 }
+
 .talk-title-wrap {
   margin-bottom: 50px;
 }
@@ -53,6 +54,7 @@
 .card-hover1 .text-bottom {
   padding-top: 8rem;
 }
+
 .card-hover2 img {
   background: black;
   overflow: hidden;
@@ -71,6 +73,7 @@
 .card-hover2 .text-bottom {
   padding-top: 8rem;
 }
+
 .card-hover3 img {
   background: black;
   overflow: hidden;
@@ -89,6 +92,7 @@
 .card-hover3 .text-bottom {
   padding-top: 8rem;
 }
+
 .card-hover4 img {
   background: black;
   overflow: hidden;
@@ -185,4 +189,12 @@
   padding: 5px;
   position: sticky;
   top: 0;
+}
+
+
+#gambar-carousel {
+  height: 550px;
+  opacity: 0.8;
+  background-color: black;
+  z-index: 1;
 }
