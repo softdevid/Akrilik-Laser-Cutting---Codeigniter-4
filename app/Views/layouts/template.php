@@ -58,14 +58,9 @@
         </div>
     </footer>
 
-    <div class="main-footer">
-        <!-- To the right -->
-        <div class="float-right text-right d-none d-sm-inline">
-            Anything you want
-        </div>
-        <!-- Default to the left -->
-        <strong>&copy 2022 by FCS PROJECT</strong>
-    </div>
+    <footer class="m-3 text-center">
+        <strong>Copyright &copy 2022 : FCS PROJECT</strong>
+    </footer>
 
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
     <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
