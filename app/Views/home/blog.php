@@ -1,3 +1,3 @@
-<?= $this->include('layouts/template'); ?>
+<?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
 <?= $this->endSection(); ?>
