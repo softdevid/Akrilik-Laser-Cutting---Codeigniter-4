@@ -11,6 +11,11 @@
     transform: translateY(0);
   }
 } */
+
+body {
+  font-family: sans-serif;
+}
+
 .talk-main {
   padding: 80px;
 }
@@ -189,4 +194,17 @@
   padding: 5px;
   position: sticky;
   top: 0;
+}
+
+#carousel-gambar {
+  height: 550px;
+  opacity: 0.8;
+  background-color: black;
+}
+
+#carousel-gambar img {
+  margin: auto;
+  padding: auto;
+  width: auto;
+  height: fit-content;
 }
