@@ -80,11 +80,37 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="200">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Foto Bali</h5>
+                                    <span>Huruf Timbul</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-timbul" role="tabpanel" aria-labelledby="pills-timbul-tab"
                 tabindex="0">
-                ...</div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Foto Bali</h5>
+                                    <span>Huruf Timbul</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="tab-pane fade" id="pills-neonbox" role="tabpanel" aria-labelledby="pills-neonbox-tab"
                 tabindex="0">
                 ...</div>
