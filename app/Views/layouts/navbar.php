@@ -21,7 +21,7 @@
     </ul>
 </nav>
 
-<nav class="navbar navbar-expand-lg bg-light sticky-top">
+<nav class="navbar navbar-expand-lg bg-light" id="sticky">
     <div class="container">
         <a class="navbar-brand" href="#">MEKAR LASER <br>
             <span class="badge bg-dark text-white">Cutting Digital</span>
