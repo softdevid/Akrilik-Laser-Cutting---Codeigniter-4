@@ -193,14 +193,7 @@ body {
 #carousel-gambar {
   height: 550px;
   opacity: 0.8;
-  background-color: black;
-}
-
-#carousel-gambar img {
-  margin: auto;
-  padding: auto;
-  width: auto;
-  height: fit-content;
+  /* background-color: black; */
 }
 
 #judul {
@@ -214,7 +207,7 @@ body {
 }
 
 #judul::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 120px;
@@ -225,7 +218,7 @@ body {
 }
 
 #judul::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
@@ -234,7 +227,6 @@ body {
   bottom: 0;
   left: calc(50% - 20px);
 }
-
 
 /* style footer */
 
