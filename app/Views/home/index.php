@@ -34,4 +34,10 @@
     </button>
 </div>
 
+<div class="container">
+    <div id="judul">
+        <h1>Prologue</h1>
+        <p>Little bit about us</p>
+    </div>
+</div>
 <?= $this->endSection(); ?>

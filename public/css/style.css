@@ -190,12 +190,6 @@ body {
   color: white;
 }
 
-#sticky {
-  padding: 5px;
-  position: sticky;
-  top: 0;
-}
-
 #carousel-gambar {
   height: 550px;
   opacity: 0.8;
@@ -207,4 +201,14 @@ body {
   padding: auto;
   width: auto;
   height: fit-content;
+}
+
+#judul {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
 }
