@@ -36,11 +36,11 @@
 
 <div class="container py-5">
     <article>
-        <div id="judul">
+        <div id="judul" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <h1>Prologue</h1>
             <p>Little bit about us</p>
         </div>
-        <div class="py-5">
+        <div class="py-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <b>Mekar Laser Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di kota Purbalingga.
             <b>Mekar Laser Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang periklanan, promosi dan branding
             selama lebih dari 5 tahun. Spesialis Jasa Pembuatan Reklame Huruf Timbul, Neon Box, Baliho dan Branding instansi yang selalu mengutamakan
@@ -49,11 +49,11 @@
         </div>
     </article>
     <article>
-        <div id="judul">
+        <div id="judul" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <h1>Services</h1>
             <p>Most Populer Services at the City</p>
         </div>
-        <div class="py-5">
+        <div class="py-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="h-100 border-0">
@@ -90,8 +90,8 @@
     </article>
 </div>
 <div class="bg-light">
-    <article>
-        <div id="judul">
+    <article data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+        <div id="judul" class="p-5">
             <h1>Portofolio</h1>
             <p>Read about our latest projects</p>
         </div>
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                    <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
                         <a href="#" class="text-white">
                             <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                         <a href="#" class="text-white">
                             <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -166,5 +166,96 @@
             </div>
         </div>
     </article>
+    <article>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner penawaran">
+                <div class="carousel-item active">
+                    <img src="/img/carousel/2.jpg" class="d-block w-100" alt="..." style="height: 610px;">
+                    <div class="carousel-caption d-md-block">
+                        <div class="text-dark" style=" margin-bottom: 170px; font-weight:1000;">
+                            <h1 class="shadow"><span class="badge bg-dark text-white">Mekar Laser Cutting Digital</span></h1>
+                            <p>- Saatnya mengembangkan bisnis dengan tim yang tepat -</p>
+                            <a href="" type="button" class="btn-penawaran">Dapatkan Penawaran</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <div class="bg-light mt-3">
+        <article data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+            <div id="judul" class="p-5">
+                <h1>Insight</h1>
+                <p>Our latest news</p>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+                    <div class="col">
+                        <div class="h-100 border-0">
+                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Pembuatan Website</h5>
+                                <p class="card-text">Website menjadi fasilitas sangat penting untuk pemasaran dan scale up bisnis di era digital ini. Miliki sekarang!</p>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100 border-0">
+                            <img src="/img/services/3.png" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Produksi huruf timbul</h5>
+                                <p class="card-text">Huruf timbul kini menjadi bagian penting dalam Branding Offline. Banyaknya manfaat dan kegunaan menjadikan huruf timbul makin populer.</p>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="h-100 border-0">
+                            <img src="/img/services/neonbox.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Produksi Neon Box</h5>
+                                <p class="card-text">Neon box merupakan produk paling penting yang harus dimiliki setiap pengusaha baik pemula maupun profesional. Miliki sekarang!</p>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
 </div>
+<div class="container py-5">
+    <article>
+        <div id="judul" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+            <h1>Why Choose Us?</h1>
+            <p>Reason for grab us</p>
+        </div>
+        <div class="py-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+            <p>
+                Apabila bisnis adalah hal utama bagi Anda, hal yang perlu dilakukan adalah fokus dan allout dalam mempromosikannya. Dengan menggunakan jasa kami produk dan tempat usaha akan lebih sering dilirik oleh masyarakat.</p>
+
+            <p><b>Manfaat Jasa Online Advertising</b></p>
+
+            <p>1. Kami berkomitmen untuk membantu dan melayani kebutuhan advertising Anda, semua dikerjakan secara online. Tanpa perlu datang dan menunggu yang membuang waktu, tanpa mengeluarkan biaya transportasi. Cukup hubungi kami, kami yang akan mengerjakan semua.</p>
+
+            <p>2. Memiliki Daya Tarik Bagi Konsumen.
+                Produk Advertising digunakan sebagai identitas yang penempatannya bisa ditempat, digantung dll. Namun sangat efektif untuk memikat konsumen yang lewat di sekitarnya. Hal ini dikarenakan kemewahan dan keistimewaan pada produk advertising akan memberikan kesan tersendiri bagi konsumen yang melihatnya.</p>
+
+            <p>3. Branding menjadi mudah dibaca dan lebih jelas.
+                Melakukan iklan usaha melalui produk advertising akan lebih mudah terlihat dan jelas dibaca, misalnya menggunakan huruf timbul. Karena huruf timbul menggunakan huruf yang besar, tegas, dan menonjol. Terlebih jika pada huruf timbul diberi efek lampu LED akan semakin memudahkan khalayak umum mengetahuinya. Dari sinilah konsumen bisa saja berdatangan untuk mencoba produk atau jasa yang ditawarkan oleh usaha tersebut.</p>
+
+            <p>4. Nama perusahaan mudah diingat dan semakin terkenal.
+                Dengan keahlian desain yang kami miliki, kami akan membantu Anda membuat produk yang menarik sehingga khalayak umum akan mudah melihat dan mengingatnya. Masyarakat yang melihatnya lama kelamaan akan familiar dengan logo atau brand dari huruf timbul perusahaan tersebut dan menjadi terkenal.</p>
+
+            <p>5. Media promosi jangka panjang.
+                Produk advertising akan terpasang di depan tempat usaha dan menjadi media promosi jangka panjang yang tepat. Dengan membuat signage di Mekar Laser Cutting Digital, kami selalu membuat dari bahan yang berkualitas dan mudah dalam perawatannya, sehingga signage Anda akan lebih tahan lama.</p>
+
+            <p>6. Membuat tempat usaha / kantor mudah dicari
+                Sudah barang tentu dengan menggunakan produk advertising tempat usaha dan kantor Anda lebih mudah dicari oleh masyarakat.</p>
+        </div>
+    </article>
+</div>
+
 <?= $this->endSection(); ?>

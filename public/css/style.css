@@ -116,6 +116,7 @@ body {
 .card-hover4 .text-bottom {
   padding-top: 12rem;
 }
+
 .card-hover5 img {
   background: black;
   overflow: hidden;
@@ -134,6 +135,7 @@ body {
 .card-hover5 .text-bottom {
   padding-top: 12rem;
 }
+
 .card-hover6 img {
   background: black;
   overflow: hidden;
@@ -152,6 +154,7 @@ body {
 .card-hover6 .text-bottom {
   padding-top: 12rem;
 }
+
 .card-hover7 img {
   background: black;
   overflow: hidden;
@@ -280,4 +283,23 @@ body {
   background: black;
   bottom: 0;
   left: calc(50% - 20px);
+}
+
+.btn-penawaran {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-penawaran:hover {
+  color: white;
+}
+
+.penawaran {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.9;
 }
