@@ -40,6 +40,12 @@ $routes->get('/services', 'Home::services');
 $routes->get('/talk', 'Home::talk');
 $routes->get('/portfolio', 'Home::portfolio');
 $routes->get('/blog', 'Home::blog');
+$routes->get('/profile', 'Home::blog');
+$routes->get('/blog', 'Home::blog');
+$routes->get('/team', 'About::team');
+$routes->get('/phase', 'About::phase');
+$routes->get('/sow', 'About::sow');
+$routes->get('/faq', 'About::faq');
 
 /*
  * --------------------------------------------------------------------
