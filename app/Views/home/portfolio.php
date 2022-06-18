@@ -48,7 +48,7 @@
                         <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
+                                <img src="/img/portfolio/portfolio.png" id="gambar" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Website Development Portfolio</h5>
                                     <span>Digital Creative, Website Development</span>
@@ -60,7 +60,7 @@
                         <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="100">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/kanopi.jpg" class="card-img" alt="Kanopi">
+                                <img src="/img/portfolio/kanopi.jpg" id="gambar" class="card-img" alt="Kanopi">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Kanopi</h5>
                                     <span>Pekerjaan Besi dan Aluminium</span>
@@ -72,7 +72,7 @@
                         <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="150">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
+                                <img src="/img/portfolio/pagarbesi.jpg" id="gambar" class="card-img" alt="Pagar Besi">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Pagar Besi</h5>
                                     <span>Pekerjaan Besi dan Aluminium</span>
@@ -84,7 +84,7 @@
                         <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="200">
                             <a href="#" class="text-white">
-                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
+                                <img src="/img/services/3.png" id="gambar" class="card-img" alt="Huruf Timbul">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Foto Bali</h5>
                                     <span>Huruf Timbul</span>
@@ -101,7 +101,7 @@
                         <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
-                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
+                                <img src="/img/services/3.png" id="gambar" class="card-img" alt="Huruf Timbul">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Foto Bali</h5>
                                     <span>Huruf Timbul</span>
@@ -123,7 +123,7 @@
                         <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/kanopi.jpg" class="card-img" alt="Kanopi">
+                                <img src="/img/portfolio/kanopi.jpg" id="gambar" class="card-img" alt="Kanopi">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Kanopi</h5>
                                     <span>Pekerjaan Besi dan Aluminium</span>
@@ -135,7 +135,7 @@
                         <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="100">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
+                                <img src="/img/portfolio/pagarbesi.jpg" id="gambar" class="card-img" alt="Pagar Besi">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Pagar Besi</h5>
                                     <span>Pekerjaan Besi dan Aluminium</span>
@@ -151,7 +151,7 @@
                         <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
+                                <img src="/img/portfolio/portfolio.png" id="gambar" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Website Development Portfolio</h5>
                                     <span>Digital Creative, Website Development</span>
@@ -168,7 +168,7 @@
                         <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
-                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
+                                <img src="/img/portfolio/portfolio.png" id="gambar" class="card-img" alt="Portfolio">
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Website Development Portfolio</h5>
                                     <span>Digital Creative, Website Development</span>
