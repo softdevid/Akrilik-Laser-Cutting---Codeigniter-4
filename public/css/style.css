@@ -229,6 +229,82 @@ body {
   left: calc(50% - 20px);
 }
 
-/* style footer */
+/* style potofolio home */
 
-/* end style footer */
+.card-hover-home1 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover-home1:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover-home1 .text-bottom {
+  margin-top: 10px;
+}
+
+.card-hover-home2 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover-home2:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover-home2 .text-bottom {
+  margin-top: 10px;
+}
+
+.card-hover-home3 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover-home3:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover-home3 .text-bottom {
+  margin-top: 10px;
+}
+
+.card-hover-home4 img {
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card-hover-home4:hover img {
+  opacity: 0.3;
+  background: black;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-hover-home4 .text-bottom {
+  margin-top: 10px;
+}
+
+/* end style portofolio home */
