@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                        <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="250">
                             <a href="#" class="text-white">
                                 <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                        <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="300">
                             <a href="#" class="text-white">
                                 <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                        <div class="card bg-black overlay card-hover7 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="350">
                             <a href="#" class="text-white">
                                 <img src="/img/services/dekstop.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
@@ -151,7 +151,7 @@
                 tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                        <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
                                 <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
@@ -168,7 +168,7 @@
                 tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                        <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down"
                             data-aos-duration="1000">
                             <a href="#" class="text-white">
                                 <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
@@ -241,7 +241,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                        <div class="card bg-black overlay card-hover7 border-0" data-aos="fade-down"
                             data-aos-duration="1000" data-aos-delay="100">
                             <a href="#" class="text-white">
                                 <img src="/img/services/dekstop.jpg" id="gambar" class="card-img" alt="Portfolio">
