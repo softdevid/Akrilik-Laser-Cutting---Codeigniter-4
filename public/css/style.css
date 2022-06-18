@@ -11,6 +11,15 @@
     transform: translateY(0);
   }
 } */
+.profile-p {
+  padding-top: 5rem;
+}
+.profile-p p {
+  font-size: 17px;
+}
+.profile-p li {
+  font-size: 17px;
+}
 .bg-cover {
   background-attachment: static;
   background-position: center;
