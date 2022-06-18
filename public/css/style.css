@@ -13,7 +13,7 @@
 } */
 .bg-cover {
   background-attachment: static;
-  background-position: center;
+  background-position: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
