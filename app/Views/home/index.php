@@ -88,63 +88,83 @@
             </div>
         </div>
     </article>
-
-    <div class="bg-light">
-        <article>
-            <div id="judul">
-                <h1>Portofolio</h1>
-                <p>Read about our latest projects</p>
-            </div>
-            <div class="py-5">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card bg-black overlay card-hover-home1 border-0" data-aos="fade-down" data-aos-duration="1000">
-                            <a href="#" class="text-white">
-                                <img src="/img/portfolio/portfolio.png" class="card-img" alt="Portfolio">
-                                <div class="overlay-content card-img-overlay text-bottom">
-                                    <h5>Website Development Portfolio</h5>
-                                    <span>Digital Creative, Website Development</span>
-                                </div>
-                            </a>
-                        </div>
+</div>
+<div class="bg-light">
+    <article>
+        <div id="judul">
+            <h1>Portofolio</h1>
+            <p>Read about our latest projects</p>
+        </div>
+        <div class="py-5 container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down" data-aos-duration="1000">
+                        <a href="#" class="text-white">
+                            <img src="/img/portfolio/portfolio.png" id="gambar" class="card-img" alt="Portfolio">
+                            <div class="overlay-content card-img-overlay text-bottom">
+                                <h5>Website Development Portfolio</h5>
+                                <span>Digital Creative, Website Development</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="card bg-black overlay card-hover-home2 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
-                            <a href="#" class="text-white">
-                                <img src="/img/portfolio/kanopi.jpg" class="card-img" alt="Kanopi">
-                                <div class="overlay-content card-img-overlay text-bottom">
-                                    <h5>Kanopi</h5>
-                                    <span>Pekerjaan Besi dan Aluminium</span>
-                                </div>
-                            </a>
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                        <a href="#" class="text-white">
+                            <img src="/img/portfolio/kanopi.jpg" id="gambar" class="card-img" alt="Kanopi">
+                            <div class="overlay-content card-img-overlay text-bottom">
+                                <h5>Kanopi</h5>
+                                <span>Pekerjaan Besi dan Aluminium</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="card bg-black overlay card-hover-home3 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
-                            <a href="#" class="text-white">
-                                <img src="/img/portfolio/pagarbesi.jpg" class="card-img" alt="Pagar Besi">
-                                <div class="overlay-content card-img-overlay text-bottom">
-                                    <h5>Pagar Besi</h5>
-                                    <span>Pekerjaan Besi dan Aluminium</span>
-                                </div>
-                            </a>
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+                        <a href="#" class="text-white">
+                            <img src="/img/portfolio/pagarbesi.jpg" id="gambar" class="card-img" alt="Pagar Besi">
+                            <div class="overlay-content card-img-overlay text-bottom">
+                                <h5>Pagar Besi</h5>
+                                <span>Pekerjaan Besi dan Aluminium</span>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col">
-                        <div class="card bg-black overlay card-hover-home4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
-                            <a href="#" class="text-white">
-                                <img src="/img/services/3.png" class="card-img" alt="Huruf Timbul">
-                                <div class="overlay-content card-img-overlay text-bottom">
-                                    <h5>Foto Bali</h5>
-                                    <span>Huruf Timbul</span>
-                                </div>
-                            </a>
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                        <a href="#" class="text-white">
+                            <img src="/img/services/3.png" id="gambar" class="card-img" alt="Huruf Timbul">
+                            <div class="overlay-content card-img-overlay text-bottom">
+                                <h5>Foto Bali</h5>
+                                <span>Huruf Timbul</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                        <a href="#" class="text-white">
+                            <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                            <div class="overlay-content card-img-overlay text-bottom">
+                                <h5>Neonbox</h5>
+                                <span>Neonbox</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                        <a href="#" class="text-white">
+                            <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                            <div class="overlay-content card-img-overlay text-bottom">
+                                <h5>Papan Reklame (Billboard)</h5>
+                                <span>Project Reklame</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </article>
-    </div>
-
+        </div>
+    </article>
 </div>
 <?= $this->endSection(); ?>
