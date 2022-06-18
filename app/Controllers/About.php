@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class About extends BaseController
 {
-    public function index()
+    public function profile()
     
     {
         $data = [
@@ -12,7 +12,7 @@ class About extends BaseController
         ];
         return view('about/profile', $data);
     }
-    public function services()
+    public function team()
     
     {
         $data = [
@@ -20,7 +20,7 @@ class About extends BaseController
         ];
         return view('about/team', $data);
     }
-    public function talk()
+    public function phase()
     
     {
         $data = [
@@ -28,7 +28,7 @@ class About extends BaseController
         ];
         return view('about/work-phase', $data);
     }
-    public function portfolio()
+    public function sow()
     
     {
         $data = [
@@ -36,7 +36,7 @@ class About extends BaseController
         ];
         return view('about/sow', $data);
     }
-    public function blog()
+    public function faq()
     
     {
         $data = [
