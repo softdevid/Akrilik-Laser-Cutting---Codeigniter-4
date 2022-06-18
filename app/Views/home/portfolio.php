@@ -39,6 +39,10 @@
                     aria-selected="false">Digital
                     Creative</button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link button" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot"
+                    type="button" role="tab" aria-controls="pills-iot" aria-selected="false">Prototype IOT</button>
+            </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
@@ -124,6 +128,18 @@
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Food App Desktop Application</h5>
                                     <span>Digital Creative</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="400">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/iot.jpg" id="gambar" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Prototype IOT</h5>
+                                    <span>Prototype IOT, Digital Creative</span>
                                 </div>
                             </a>
                         </div>
@@ -252,9 +268,36 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover7 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="150">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/iot.jpg" id="gambar" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Prototype IOT</h5>
+                                    <span>Prototype IOT, Digital Creative</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-iot" role="tabpanel" aria-labelledby="pills-iot-tab" tabindex="0">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/portfolio/iot.jpg" id="gambar" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Prototype IOT</h5>
+                                    <span>Prototype IOT, Digital Creative</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<?= $this->endSection(); ?>
+    <?= $this->endSection(); ?>
