@@ -57,7 +57,7 @@ body {
 }
 
 .card-hover1 .text-bottom {
-  padding-top: 12rem;
+  padding-top: 8rem;
 }
 
 .card-hover2 img {
@@ -76,7 +76,7 @@ body {
 }
 
 .card-hover2 .text-bottom {
-  padding-top: 12rem;
+  padding-top: 8rem;
 }
 
 .card-hover3 img {
@@ -95,7 +95,7 @@ body {
 }
 
 .card-hover3 .text-bottom {
-  padding-top: 12rem;
+  padding-top: 8rem;
 }
 
 .card-hover4 img {
@@ -114,7 +114,7 @@ body {
 }
 
 .card-hover4 .text-bottom {
-  padding-top: 12rem;
+  padding-top: 7.5rem;
 }
 
 #button {
@@ -196,6 +196,7 @@ body {
   opacity: 0.7;
 }
 
+
 #judul {
   /* font-size: 32px; */
   color: #111;
@@ -230,7 +231,6 @@ body {
 
 /* style potofolio home */
 
-<<<<<<< HEAD
 .card-hover-home1 img {
   background: black;
   overflow: hidden;
@@ -308,6 +308,3 @@ body {
 }
 
 /* end style portofolio home */
-=======
-/* end style footer */
->>>>>>> cd984694c58abf5b44e81bf3b3213a38bf2af18d
