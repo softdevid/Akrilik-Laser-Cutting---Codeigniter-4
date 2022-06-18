@@ -92,6 +92,42 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="250">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Neonbox</h5>
+                                    <span>Neonbox</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="300">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Papan Reklame (Billboard)</h5>
+                                    <span>Project Reklame</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="350">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/dekstop.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Food App Desktop Application</h5>
+                                    <span>Digital Creative</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-timbul" role="tabpanel" aria-labelledby="pills-timbul-tab"
@@ -113,10 +149,38 @@
             </div>
             <div class="tab-pane fade" id="pills-neonbox" role="tabpanel" aria-labelledby="pills-neonbox-tab"
                 tabindex="0">
-                ...</div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Neonbox</h5>
+                                    <span>Neonbox</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="tab-pane fade" id="pills-reklame" role="tabpanel" aria-labelledby="pills-reklame-tab"
                 tabindex="0">
-                ...</div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                            data-aos-duration="1000">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Papan Reklame (Billboard)</h5>
+                                    <span>Project Reklame</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="tab-pane fade" id="pills-besi" role="tabpanel" aria-labelledby="pills-besi-tab" tabindex="0">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
@@ -172,6 +236,18 @@
                                 <div class="overlay-content card-img-overlay text-bottom">
                                     <h5>Website Development Portfolio</h5>
                                     <span>Digital Creative, Website Development</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
+                            data-aos-duration="1000" data-aos-delay="100">
+                            <a href="#" class="text-white">
+                                <img src="/img/services/dekstop.jpg" id="gambar" class="card-img" alt="Portfolio">
+                                <div class="overlay-content card-img-overlay text-bottom">
+                                    <h5>Food App Application</h5>
+                                    <span>Digital Creative</span>
                                 </div>
                             </a>
                         </div>
