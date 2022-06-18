@@ -5,86 +5,134 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col" data-aos="fade-down" data-aos-duration="1000">
                 <div class="h-100 border-0">
-                    <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                    <img src="/img/about/dedy.jpg" class="card-img-top" id="gambar" alt="...">
                     <div class="card-body mt-3">
                         <h5 class="card-title">Dedy Suwito, S.Kom</h5>
-                        <button class="btn btn-dark mt-3" id="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#dedy" aria-controls="offcanvasRight">Learn More</button>
+                        <p>Jabatan</p>
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#dedy">Learn More</button>
                     </div>
                 </div>
             </div>
             <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
                 <div class="h-100 border-0">
-                    <img src="/img/services/3.png" class="card-img-top" id="gambar" alt="...">
+                    <img src="/img/about/ardianto.jpeg" class="card-img-top" id="gambar" alt="...">
                     <div class="card-body mt-3">
                         <h5 class="card-title">Ardianto Putra Pratomo</h5>
-                        <button class="btn btn-dark mt-3" id="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#ardianto" aria-controls="offcanvasRight">Learn More</button>
+                        <p>Jabatan</p>
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#ardianto">Learn More</button>
                     </div>
                 </div>
             </div>
             <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
                 <div class="h-100 border-0">
-                    <img src="/img/services/neonbox.jpg" class="card-img-top" id="gambar" alt="...">
+                    <img src="/img/about/" class="card-img-top" id="gambar" alt="...">
                     <div class="card-body mt-3">
                         <h5 class="card-title">Dzaky Fadli Firmansyah</h5>
-                        <button class="btn btn-dark mt-3" id="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#dzaky" aria-controls="offcanvasRight">Learn More</button>
+                        <p>Jabatan</p>
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#dzaky">Learn More</button>
                     </div>
                 </div>
             </div>
             <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
                 <div class="h-100 border-0">
-                    <img src="/img/services/neonbox.jpg" class="card-img-top" id="gambar" alt="...">
+                    <img src="/img/about/tresnanda.png" class="card-img-top" id="gambar" alt="...">
                     <div class="card-body mt-3">
                         <h5 class="card-title">Tresnanda Agsifa Cakra Buana</h5>
-                        <button class="btn btn-dark mt-3" id="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#tresnanda" aria-controls="offcanvasRight">Learn More</button>
+                        <p>Jabatan</p>
+                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#tresnanda">Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- offcanvas modal -->
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="dedy" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            ...
-        </div>
-    </div>
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="ardianto" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            ...
-        </div>
-    </div>
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="dzaky" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            ...
-        </div>
-    </div>
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="tresnanda" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-            ...
-        </div>
-    </div>
-
 </div>
-<!-- offcanvas modal -->
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="dedy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Dedy Suwito, S.Kom</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <img src="/img/about/dedy.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col">
+                        Studies
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ardianto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ardianto Putra Pratomo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <img src="/img/about/ardianto.jpeg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col">
+                        Studies
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="dzaky" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Dzaky Fadli Firmansyah</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <img src="/img/about/" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col">
+                        Studies
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="tresnanda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tresnanda Agsifa Cakra Buana</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <img src="/img/about/tresnanda.png" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col">
+                        Studies
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <?= $this->endSection(); ?>
