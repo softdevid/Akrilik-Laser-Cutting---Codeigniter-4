@@ -126,7 +126,7 @@ body {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  height: 18rem;
+  min-height: 17rem;
   min-width: 100%;
 }
 
@@ -192,9 +192,8 @@ body {
 }
 
 #carousel-gambar {
-  max-height: 550px auto;
+  max-height: 550px;
   opacity: 0.7;
-  background-color: black;
 }
 
 
