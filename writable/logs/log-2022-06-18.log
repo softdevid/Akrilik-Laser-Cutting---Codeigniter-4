@@ -1,0 +1,10 @@
+CRITICAL - 2022-06-18 01:11:39 --> Invalid file: about/team.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about/team.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('about/team', [], true)
+ 3 APPPATH\Controllers\About.php(21): view('about/team', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\About->team()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
