@@ -321,3 +321,29 @@ body {
   object-fit: cover;
   opacity: 0.9;
 }
+
+.accordion-item button {
+  background-color: #173052;
+  color: white;
+}
+
+hr.line1 {
+  border: 1px solid red;
+}
+
+.row .col-md-3 {
+  padding-left: 2rem;
+}
+
+span.text-uppercase {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social a {
+  background: #173052;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}

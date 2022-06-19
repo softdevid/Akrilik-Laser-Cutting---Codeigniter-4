@@ -10,57 +10,61 @@
 </div>
 <div class="container">
     <div class="row profile-p">
-        <div class="col-md-8">
+        <div class="col-md-9">
             <article>
                 <p>
                 <h3 class="fw-bold">Pertanyaan Seputar Advertising Reklame</h3>
-                <div class="accordion pt-3" id="accordionExample">
+                <div class="accordion accordion-flush pt-3" id="accordionFlushExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Apakah Mekar Laser Cutting Digital dapat dipercaya?
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Apakah Alegra Advertising dapat dipercaya?
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                Tentu saja kami dapat dipercaya, Insya Allah kami amanah. Kami tidak akan menyia-nyiakan
-                                reputasi kami selama 5 tahun sebagai perusahaan Advertising yang berkembang di
-                                Purwokerto. Alegra Advertising juga memiliki legalitas dan izin usaha bidang Advertising
-                                dan Periklanan yang tercatat di Kementerian Hukum dan HAM atas nama CV. Alegra Multi
-                                Mandiri.
+                                Tentu saja kami dapat dipercaya, Insya Allah kami amanah. Kami
+                                tidak akan menyia-nyiakan reputasi kami selama 5 tahun sebagai perusahaan Advertising
+                                yang berkembang di Purwokerto. Mekar Laser Cutting Digital juga memiliki legalitas dan
+                                izin usaha
+                                bidang Advertising dan Periklanan yang tercatat di Kementerian Hukum dan HAM atas nama
+                                CV. Alegra Multi Mandiri.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
+                        <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
                                 Dimana alamat kantor dan workshop Mekar Laser Cutting Digital?
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 JL. Lingkar Purbalingga
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
+                        <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
                                 Hal apa saja yang dikerjakan?
                             </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                Kami biasa mengerjakan reklame pembuatan huruf timbul, neon box, pylon sign, neon sign,
-                                dll. Selain itu kami juga biasa mengerjakan pembuatan dan pemasangan booth pameran,
-                                backdrop, kanopi, pagar, atap baja ringan. Kami juga menerima pembuatan gerobak untuk
-                                jualan.
+                                Kami biasa mengerjakan reklame pembuatan huruf timbul, neon box,
+                                pylon sign, neon sign, dll. Selain itu kami juga biasa mengerjakan pembuatan dan
+                                pemasangan booth pameran, backdrop, kanopi, pagar, atap baja ringan. Kami juga menerima
+                                pembuatan gerobak untuk jualan.
                             </div>
                         </div>
                     </div>
@@ -69,16 +73,17 @@
             <article>
                 <p>
                 <h3 class="fw-bold pt-3">Pertanyaan Seputar Digital Creative</h3>
-                <div class="accordion pt-3" id="accordionExample">
+                <div class="accordion accordion-flush pt-3" id="accordionFlushExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
                                 Apa itu Digital Creative Agency?
                             </button>
                         </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
-                            data-bs-parent="#accordionExample">
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 Pengertian digital creative agency adalah agen baik perorangan atau perusahaan sebagai
                                 pihak ketiga yang membantu klien untuk membuat, merancang, dan mengelola kegiatan
@@ -87,14 +92,15 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive">
+                        <h2 class="accordion-header" id="flush-headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
                                 Apa aja sih yang bisa Alegra Creative lakukan?
                             </button>
                         </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                            data-bs-parent="#accordionExample">
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 Kami sebagai perusahaan Advertising yang bergerak dalam industri kreatif pada dasarnya
                                 bisa melakukan apapun, mulai dari Pembuatan Branding Logo Usaha, Pembuatan dan
@@ -105,14 +111,15 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingSix">
+                        <h2 class="accordion-header" id="flush-headingSix">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
                                 Siapa saja yang butuh Jasa Digital Marketing?
                             </button>
                         </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                            data-bs-parent="#accordionExample">
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 Mulai dari pengusaha, pebisnis, perusahaan, umkm, ukm, startup & siapa saja yang ingin
                                 memasarkan produk/brand nya secara online. Mulai dari yang ingin mendapatkan trafik &
@@ -124,7 +131,16 @@
                 </div>
             </article>
         </div>
-        <div class="col-md-4"></div>
+        <div class="col-md-3">
+            <div class="container">
+                <hr class="line1">
+                <span class="text-uppercase pb-3">social</span>
+                <br>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-youtube youtube"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <?= $this->endSection(); ?>
