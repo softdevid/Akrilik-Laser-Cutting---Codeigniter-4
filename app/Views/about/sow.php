@@ -10,50 +10,45 @@
 </div>
 <div class="container">
     <div class="row profile-p">
-        <article>
-            <p> <b>Mekar Laser Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di
-                kota Purbalingga.
-                <b>Mekar Laser Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang
-                periklanan, promosi dan branding
-                selama lebih dari 5 tahun. Spesialis Jasa Pembuatan Reklame Huruf Timbul, Neon Box, Baliho dan Branding
-                instansi yang selalu mengutamakan
-                kualitas dan mengedepankan professionalisme kerja serta berkomitmen memberikan harga yang realistis bagi
-                klien. Selain produksi Reklame, <b>Mekar Laser Cutting Digital</b> juga melayani kebutuhan Digital
-                Marketing sebagai solusi pemasaran digital. Kami menawarkan beberapa macam kebutuhan akan jasa digital
-                marketing antara lain, pembuatan website, optimasi website, audit dan analisa website / social media,
-                pengelolaan social media, foto produk, pembuatan logo, personal / politik branding.
+        <article data-aos="fade-down" data-aos-duration="1000">
+            <img src="/img/about/sow2.jpg" alt="SOW2">
+            <p>
+            <h3 class="fw-bold">Desain & Produksi Signage</h3>
+            </p>
+            <p>MEKAR LASER CUTTING DIGITAL telah bekerja mengerjakan banyak proyek pembuatan Signage, baik itu pembuatan
+                huruf
+                timbul, pembuatan neon box dan pembuatan pylon. Dari area perumahan kecil seluas 60m2, kemudian
+                mengerjakan dan mengirim banyak proyek signage untuk Hotel, Bangunan Instansi, Gelanggang Olahraga,
+                Masjid, hingga Coffee Shop kecil. Sejak awal MEKAR LASER CUTTING DIGITAL tidak pernah membatasi
+                klasifikasi
+                proyek yang dikerjakan, mengingat MEKAR LAER CUTTING DIGITAL memiliki semangat untuk meningkatkan citra
+                advertising dalam skala apapun.
             </p>
         </article>
-        <article>
+        <article data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+            <img src="/img/about/sow3.jpg" class="pt-3" alt="SOW3">
             <p>
-            <h3 class="fw-bold">Dukungan Mesin dan Tenaga Ahli</h3>
+            <h3 class="fw-bold">Desain & Produksi Interior</h3>
             </p>
-            <p>Perusahaan kami didukung oleh mesin cutting laser dan mesin bending dengan teknologi modern, tenaga ahli
-                yang berpengalaman dan material yang berkualitas yang menjadikan kami unggul dalam segi harga, kualitas
-                dan kuantitas produksi.</p>
+            <p>Pada tahun 2021, Divisi Desain kami di MEKAR LAER CUTTING DIGITAL telah berkembang menjadi unit usaha
+                mandiri
+                baru dengan nama Alegra Interior. Sekarang, Alegra Interior sudah sanggup untuk melayani klien yang
+                membutuhkan Jasa Desain Interior, baik itu Desain Rumah atau tempat tinggal, Desain Hotel atau Villa,
+                hingga Coffee Shop dan Cafe. . Untuk proses administrasi, publikasi dan website Anda dapat mengunjungi
+                website alegrainterior.com</p>
         </article>
-        <article>
+        <article data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+            <img src="/img/about/sow4.jpg" class="pt-3" alt="SOW4">
             <p>
-            <h3 class="fw-bold">Service Area</h3>
+            <h3 class="fw-bold">Digital Creative</h3>
             </p>
-            <p>Kami melayani order pengerjaan huruf timbul maupun cutting laser dan segala bentuk kebutuhan produk
-                selain reklame. Area service kami adalah seluruh daerah di Negara Kesatuan Republik Indonesia, khususnya
-                daerah Jawa Tengah, Banyumas, Purwokerto, Purbalingga, Cilacap, Banjarnegara, Wonosobo, Bumiayu, Tegal,
-                Pekalongan, Bandung, Sukabumi, Kebumen, Purworejo, Kutoarjo, Semarang, Kudus, Pati, Kendal, Sukoharjo,
-                Solo, Klaten, Yogyakarta dan daerah lainnya.</p>
-        </article>
-        <article>
-            <p>
-            <h3 class="fw-bold">Visi Misi Alegra Advertising</h3>
-            </p>
-            <ul>
-                <li>Mencari Ridho Allah azza wa Jalla</li>
-                <li>Menghasilkan produk dan jasa dengan kecepatan dan mutu berstandar tinggi</li>
-                <li>Mensejahterakan personil perusahaan dan keluarganya, serta memberikan kebermanfaatan bagi lingkungan
-                </li>
-                <li>Layanan yang terpuji dan berkesan</li>
-                <li>Sistem operasi yang rapi dan jelas</li>
-            </ul>
+            <p>Pada tahun 2021 juga, Divisi Creative MEKAR LAER CUTTING DIGITAL telah menjadi unit usaha mandiri dengan
+                nama
+                ALGRCRTV (Alegra Creative). Sekarang, ALGRCRTV dikenal sebagai ALEGRA DIGITAL CREATIVE, yang bertindak
+                sebagai Perusahaan Digital Marketing untuk membangun dan mengembangkan semua aspek digital di bawah
+                MEKAR LAER CUTTING DIGITAL. Untuk proses administrasi, publikasi dan website Anda dapat mengunjungi
+                website
+                alegracreative.com</p>
         </article>
     </div>
 </div>

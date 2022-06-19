@@ -1,25 +1,28 @@
-<nav class="navbar bg-dark">
-    <ul class="nav justify-content-start">
-        <li class="nav-item">
-            <a class="nav-link text-white left-nav" aria-current="page" href="telp:+628888901970">Konsultasi:
-                088889019701</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container">
+        <ul class="nav justify-content-start align-items-center">
+            <li class="nav-item">
+                <a class="nav-link text-white left-nav" aria-current="page" href="telp:+628888901970">Konsultasi:
+                    088889019701</a>
+            </li>
+        </ul>
 
-    <ul class="nav d-flex justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link text-white active" aria-current="page" href="#"><i class="fa-brands fa-youtube"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#"><i class="fa-brands fa-facebook"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
-        </li>
-    </ul>
+        <ul class="nav d-flex justify-content-end align-items-center">
+            <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 

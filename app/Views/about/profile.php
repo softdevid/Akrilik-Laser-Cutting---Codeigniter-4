@@ -10,7 +10,7 @@
 </div>
 <div class="container">
     <div class="row profile-p">
-        <article>
+        <article class="article-1">
             <p> <b>Mekar Laser Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di
                 kota Purbalingga.
                 <b>Mekar Laser Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang
@@ -24,7 +24,7 @@
                 pengelolaan social media, foto produk, pembuatan logo, personal / politik branding.
             </p>
         </article>
-        <article>
+        <article class="article-2">
             <p>
             <h3 class="fw-bold">Dukungan Mesin dan Tenaga Ahli</h3>
             </p>
@@ -32,7 +32,7 @@
                 yang berpengalaman dan material yang berkualitas yang menjadikan kami unggul dalam segi harga, kualitas
                 dan kuantitas produksi.</p>
         </article>
-        <article>
+        <article class="article-3">
             <p>
             <h3 class="fw-bold">Service Area</h3>
             </p>
@@ -42,7 +42,7 @@
                 Pekalongan, Bandung, Sukabumi, Kebumen, Purworejo, Kutoarjo, Semarang, Kudus, Pati, Kendal, Sukoharjo,
                 Solo, Klaten, Yogyakarta dan daerah lainnya.</p>
         </article>
-        <article>
+        <article class="article-4">
             <p>
             <h3 class="fw-bold">Visi Misi Alegra Advertising</h3>
             </p>
