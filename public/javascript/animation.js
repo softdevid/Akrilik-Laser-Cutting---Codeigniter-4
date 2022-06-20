@@ -27,3 +27,45 @@ gsap.from(".article-4", {
   opacity: 0,
   x: -100,
 });
+gsap.from(".article-4", {
+  duration: 1,
+  delay: 2,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".judul-header", {
+  duration: 1,
+  delay: 1,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".line1", {
+  duration: 1,
+  delay: 1,
+  opacity: 0,
+  y: -100,
+});
+gsap.from(".line2", {
+  duration: 1,
+  delay: 2.5,
+  opacity: 0,
+  y: 100,
+});
+gsap.from(".icon-aside", {
+  duration: 1,
+  delay: 2,
+  opacity: 0,
+  y: 100,
+});
+gsap.from(".judul-aside", {
+  duration: 1,
+  delay: 1.5,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".sub-aside", {
+  duration: 1,
+  delay: 3,
+  opacity: 0,
+  x: -100,
+});
