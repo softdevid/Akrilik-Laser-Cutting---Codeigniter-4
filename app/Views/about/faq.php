@@ -134,10 +134,13 @@
         <div class="col-md-3">
             <div class="container">
                 <hr class="line1">
-                <span class="text-uppercase pb-3">social</span>
+                <span class="text-uppercase">social</span>
                 <br>
                 <div class="social">
-                    <a href="#"><i class="fa-brands fa-youtube youtube"></i></a>
+                    <div class="row pt-4 ps-2">
+                        <a href="#" class="nav-link"><i class="fa-brands fa-youtube youtube"></i></a>
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
