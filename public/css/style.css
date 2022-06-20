@@ -331,6 +331,7 @@ body {
 hr.line1 {
   border: 1px solid red;
 }
+
 hr.line2 {
   border: 1px solid red;
 }
@@ -367,11 +368,11 @@ span.text-uppercase {
   font-size: 20px;
   padding: 8px;
 }
+
 .row .nav-link {
   padding-left: 2px;
 }
 
-<<<<<<< HEAD
 .services-category {
   background: rgb(197, 194, 194);
   color: black;
@@ -389,13 +390,14 @@ span.text-uppercase {
 .services-category h5 {
   margin: 10px auto;
 }
-=======
+
 .sub-item .sub-header {
   text-decoration: none;
   color: #173052;
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.5s;
 }
+
 .sub-item .sub-header:hover {
   text-decoration: none;
   color: red;
@@ -408,7 +410,7 @@ span.text-uppercase {
   color: #384c69;
   padding: 0;
 }
+
 .social .row {
   padding-left: 13px;
 }
->>>>>>> 8fa6696de6ce2d165d019c3320427016bed194b7
