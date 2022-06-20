@@ -1,4 +1,4 @@
-/* .tab-pane.active {
+/* .tab-pane.active {mg
   animation: slide-down 1s ease-out;
 }
 @keyframes slide-down {
@@ -21,6 +21,10 @@
 
 .profile-p li {
   font-size: 17px;
+}
+
+.profile-p img {
+  max-width: 100%;
 }
 
 .bg-cover {
@@ -347,25 +351,23 @@ span.text-uppercase {
 }
 
 .social .nav-link {
-  background: #000000;
   font-size: 30px;
-  color: white;
+  color: black;
   text-decoration: none;
   width: 45px;
   height: auto;
 }
 
 .social .nav-link:hover {
-  background: #000000;
   font-size: 30px;
-  color: rgb(194, 194, 194);
+  color: rgb(92, 92, 92);
   text-decoration: none;
   width: 45px;
   height: auto;
 }
 
 .social i {
-  font-size: 20px;
+  font-size: 45px;
   padding: 8px;
 }
 

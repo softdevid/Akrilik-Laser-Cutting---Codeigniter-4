@@ -138,13 +138,13 @@
                 <br>
                 <div class="social pb-3">
                     <div class="row pt-4">
-                        <a href="#" class="nav-link"><i class="fa-brands fa-youtube youtube"></i></a>
+                        <a href="#" class="nav-link"><i class="fa-brands fa-youtube-square"></i></a>
                         &nbsp;
-                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook-square"></i></a>
                         &nbsp;
-                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram-square"></i></a>
                         &nbsp;
-                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter-square"></i></a>
                     </div>
                 </div>
                 <hr class="line2">
