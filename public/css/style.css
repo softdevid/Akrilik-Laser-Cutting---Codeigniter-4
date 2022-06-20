@@ -354,6 +354,7 @@ span.text-uppercase {
   width: 45px;
   height: auto;
 }
+
 .social .nav-link:hover {
   background: #000000;
   font-size: 30px;
@@ -372,7 +373,6 @@ span.text-uppercase {
   padding-left: 2px;
 }
 
-<<<<<<< HEAD
 .services-category {
   background: rgb(197, 194, 194);
   color: black;
@@ -391,8 +391,6 @@ span.text-uppercase {
   margin: 10px auto;
 }
 
-=======
->>>>>>> c0450963623cf4c2d592e56b7a03e215d57f570c
 .sub-item .sub-header {
   text-decoration: none;
   color: #000000;
@@ -415,8 +413,4 @@ span.text-uppercase {
 
 .social .row {
   padding-left: 13px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c0450963623cf4c2d592e56b7a03e215d57f570c
