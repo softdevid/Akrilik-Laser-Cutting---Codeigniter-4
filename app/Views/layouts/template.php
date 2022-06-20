@@ -42,7 +42,7 @@
                 <div class="col-6 col-lg-3 mb-3 text-">
                     <h5>USEFUL LINKS</h5>
                     <ul class="list-unstyled style-a">
-                        <li class="mb-2"><a href="/portofolio" class="nav-link"> Portofolio</a></li>
+                        <li class="mb-2"><a href="/portfolio" class="nav-link"> Portofolio</a></li>
                         <li class="mb-2"><a href="/team" class="nav-link">About Us</a></li>
                         <li class="mb-2"><a href="/carrer" class="nav-link">Carrer</a></li>
                         <li class="mb-2"><a href="/workphase" class="nav-link">How to Order</a></li>
