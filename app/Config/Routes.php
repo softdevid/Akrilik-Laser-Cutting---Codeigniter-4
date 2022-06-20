@@ -47,6 +47,9 @@ $routes->get('/phase', 'About::phase');
 $routes->get('/sow', 'About::sow');
 $routes->get('/faq', 'About::faq');
 
+// routes services
+$routes->get('/service/pembuatan-website', 'Services::pembuatan_website');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
