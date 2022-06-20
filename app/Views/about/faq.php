@@ -136,8 +136,8 @@
                 <hr class="line1">
                 <span class="text-uppercase">social</span>
                 <br>
-                <div class="social">
-                    <div class="row pt-4 ps-2 justify-content-center">
+                <div class="social pb-3">
+                    <div class="row pt-4">
                         <a href="#" class="nav-link"><i class="fa-brands fa-youtube youtube"></i></a>
                         &nbsp;
                         <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -147,6 +147,44 @@
                         <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
+                <hr class="line2">
+                <span class="text-uppercase">latest case studies</span>
+                <article class="pt-3 sub-item">
+                    <a href="#" class="sub-header">
+                        <h6 class="fw-bold">Pagar Besi</h6>
+                    </a>
+                    <a href="#" class="sub-item">
+                        Pekerjaan Besi dan Alumunium
+                    </a>
+                    <hr>
+                </article>
+                <article class="sub-item">
+                    <a href="#" class="sub-header">
+                        <h6 class="fw-bold">Kanopi</h6>
+                    </a>
+                    <a href="#" class="sub-item">
+                        Pekerjaan Besi dan Alumunium
+                    </a>
+                    <hr>
+                </article>
+                <article class="sub-item">
+                    <a href="#" class="sub-header">
+                        <h6 class="fw-bold">Prototype IOT</h6>
+                    </a>
+                    <a href="#" class="sub-item">
+                        Prototype IOT & Digital Creative
+                    </a>
+                    <hr>
+                </article>
+                <article class="sub-item">
+                    <a href="#" class="sub-header">
+                        <h6 class="fw-bold">Food App Dekstop</h6>
+                    </a>
+                    <a href="#" class="sub-item">
+                        Digital Creative
+                    </a>
+                    <hr>
+                </article>
             </div>
         </div>
     </div>
