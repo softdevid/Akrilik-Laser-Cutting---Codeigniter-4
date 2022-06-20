@@ -4,16 +4,17 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+
     public function index()
-    
+
     {
         $data = [
-            'title' => 'HOME'
+            'title' => 'HOME',
         ];
         return view('home/index', $data);
     }
     public function services()
-    
+
     {
         $data = [
             'title' => 'SERVICES'
@@ -21,7 +22,7 @@ class Home extends BaseController
         return view('home/services', $data);
     }
     public function talk()
-    
+
     {
         $data = [
             'title' => 'LETS TALK'
@@ -29,7 +30,7 @@ class Home extends BaseController
         return view('home/lets-talk', $data);
     }
     public function portfolio()
-    
+
     {
         $data = [
             'title' => 'PORTFOLIO'
@@ -37,7 +38,7 @@ class Home extends BaseController
         return view('home/portfolio', $data);
     }
     public function blog()
-    
+
     {
         $data = [
             'title' => 'BLOG'
