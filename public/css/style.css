@@ -33,10 +33,10 @@
 body {
   font-family: sans-serif;
 }
-
+/* 
 .talk-main {
   padding: 80px;
-}
+} */
 
 .talk-title-wrap {
   margin-bottom: 50px;
@@ -379,7 +379,6 @@ span.text-uppercase {
   text-decoration: none;
   height: 50px;
 }
-
 
 .services-category.active {
   background: #173052;
