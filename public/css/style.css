@@ -206,6 +206,15 @@ body {
   min-width: 100%;
 }
 
+#img-team {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-height: 17rem;
+  min-width: 100%;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -355,6 +364,7 @@ span.text-uppercase {
   font-size: 25px;
   padding: 8px;
 }
+
 .row .nav-link {
   padding-left: 2px;
 }
