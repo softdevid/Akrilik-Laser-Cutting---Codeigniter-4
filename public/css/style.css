@@ -359,9 +359,17 @@ span.text-uppercase {
   width: 45px;
   height: auto;
 }
+.social .nav-link:hover {
+  background: #12243d;
+  font-size: 30px;
+  color: rgb(194, 194, 194);
+  text-decoration: none;
+  width: 45px;
+  height: auto;
+}
 
 .social i {
-  font-size: 25px;
+  font-size: 20px;
   padding: 8px;
 }
 
