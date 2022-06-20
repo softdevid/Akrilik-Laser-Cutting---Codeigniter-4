@@ -10,7 +10,7 @@
     <div class="row profile-p">
         <div class="col-md-9 p-3">
             <article>
-                <img src="/img/services/web.jpg" class="card-img-top" alt="" style="min-width: 100%; width: 87px; height: 580px;">
+                <img src="/img/services/web.jpg" class="card-img-top" alt="" style="min-width: 100%; max-height: 580px;">
             </article>
             <article class="pt-3">
                 <p>Jasa Pembuatan Website Profesional, merupakan jasa bikin website yang terbaik berbasis di kota Banyumas, Jawa Tengah.
