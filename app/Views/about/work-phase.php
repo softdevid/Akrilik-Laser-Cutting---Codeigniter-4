@@ -1,8 +1,7 @@
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
 
-<div class="jumbotron bg-cover text-white"
-    style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/workphase.png); padding: 120px; width: 100%;">
+<div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/workphase.png); padding: 120px; width: 100%;">
     <div class="container">
         <h1 class="display-7">Work Phase</h1>
         <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
@@ -16,8 +15,7 @@
 
             <div class="col-md-6 text-center mt-5">
                 <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                <i class="fa fa-user img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down"
-                    data-aos-duration="1000"></i>
+                <i class="fa fa-user img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down" data-aos-duration="1000"></i>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">
                 <div class="card-body">
@@ -30,8 +28,7 @@
 
             <div class="col-md-6 text-center mt-5">
                 <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                <i class="fa fa-search img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down"
-                    data-aos-duration="1000" data-aos-delay="100"></i>
+                <i class="fa fa-search img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></i>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                 <div class="card-body">
@@ -44,8 +41,7 @@
 
             <div class="col-md-6 text-center mt-5">
                 <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                <i class="fa fa-ruler img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down"
-                    data-aos-duration="1000" data-aos-delay="150"></i>
+                <i class="fa fa-ruler img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150"></i>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
                 <div class="card-body">
@@ -57,8 +53,7 @@
 
             <div class="col-md-6 text-center mt-5">
                 <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                <i class="fa fa-pencil img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down"
-                    data-aos-duration="1000" data-aos-delay="200"></i>
+                <i class="fa fa-pencil img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200"></i>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                 <div class="card-body">
@@ -70,8 +65,7 @@
 
             <div class="col-md-6 text-center mt-5">
                 <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                <i class="fa fa-tools img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down"
-                    data-aos-duration="1000" data-aos-delay="250"></i>
+                <i class="fa fa-tools img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250"></i>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="350">
                 <div class="card-body">
@@ -84,8 +78,7 @@
 
             <div class="col-md-6 text-center mt-5">
                 <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
-                <i class="fa fa-circle-check img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down"
-                    data-aos-duration="1000" data-aos-delay="300"></i>
+                <i class="fa fa-circle-check img-fluid rounded-start" style="font-size: 100px;" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300"></i>
             </div>
             <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                 <div class="card-body">
@@ -97,6 +90,5 @@
 
         </div>
     </div>
-</div>
 
-<?= $this->endSection(); ?>
+    <?= $this->endSection(); ?>

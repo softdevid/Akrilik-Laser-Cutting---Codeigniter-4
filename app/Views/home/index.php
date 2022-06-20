@@ -257,9 +257,12 @@
         </div>
     </article>
 </div>
-<div class="bg-light">
-    <div class="row justify-content-center align-items-center">
-        <img src="/img/community.png" alt="" style="width: 200px;">
+
+<div class="bg-light p-5">
+    <div class="justify-content-center align-items-center">
+        <center>
+            <img src="/img/community.png" alt="" style="width: 200px;">
+        </center>
     </div>
 </div>
 

@@ -18,7 +18,6 @@
                     <div class="card-body mt-3">
                         <h5 class="card-title">Dedy Suwito, S.Kom</h5>
                         <p>Senior Software Developer</p>
-                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#dedy">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -28,7 +27,6 @@
                     <div class="card-body mt-3">
                         <h5 class="card-title">Ardianto Putra Pratomo</h5>
                         <p>Junior Full-Stack Web Developer</p>
-                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#ardianto">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -38,7 +36,6 @@
                     <div class="card-body mt-3">
                         <h5 class="card-title">Dzaky Fadli Firmansyah</h5>
                         <p>Junior Full-Stack Web Developer</p>
-                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#dzaky">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -48,100 +45,11 @@
                     <div class="card-body mt-3">
                         <h5 class="card-title">Tresnanda Agsifa Cakra Buana</h5>
                         <p>Junior Full-Stack Web Developer</p>
-                        <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#tresnanda">Learn More</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="dedy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Dedy Suwito, S.Kom</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col">
-                        <img src="/img/about/pakdedy.jpeg" alt="" style="width: 100%;">
-                    </div>
-                    <div class="col">
-                        Studies
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="ardianto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ardianto Putra Pratomo</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col">
-                        <img src="/img/about/ardianto.jpeg" alt="" style="width: 100%;">
-                    </div>
-                    <div class="col">
-                        Studies
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="dzaky" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Dzaky Fadli Firmansyah</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col">
-                        <img src="/img/about/" alt="" style="width: 100%;">
-                    </div>
-                    <div class="col">
-                        Studies
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="tresnanda" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Tresnanda Agsifa Cakra Buana</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col">
-                        <img src="/img/about/tresnanda.png" alt="" style="width: 100%;">
-                    </div>
-                    <div class="col">
-                        Studies
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <?= $this->endSection(); ?>

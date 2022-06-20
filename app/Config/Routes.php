@@ -43,7 +43,7 @@ $routes->get('/blog', 'Home::blog');
 $routes->get('/blog', 'Home::blog');
 $routes->get('/profile', 'About::profile');
 $routes->get('/team', 'About::team');
-$routes->get('/phase', 'About::phase');
+$routes->get('/work-phase', 'About::phase');
 $routes->get('/sow', 'About::sow');
 $routes->get('/faq', 'About::faq');
 

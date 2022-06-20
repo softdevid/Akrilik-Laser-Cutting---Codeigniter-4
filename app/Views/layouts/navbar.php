@@ -45,7 +45,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/profile">Profile</a></li>
                         <li><a class="dropdown-item" href="/team">Team</a></li>
-                        <li><a class="dropdown-item" href="/phase">Work Phase</a></li>
+                        <li><a class="dropdown-item" href="/work-phase">Work Phase</a></li>
                         <li><a class="dropdown-item" href="/sow">Scope of Work</a></li>
                         <li><a class="dropdown-item" href="/faq">FAQ's</a></li>
                     </ul>

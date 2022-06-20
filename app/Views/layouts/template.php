@@ -19,32 +19,38 @@
         <div class="container py-4 py-md-5 px-4 px-md-3">
             <div class="row">
                 <div class="col-lg-3 mb-3 text-dark">
-                    <hr class="line1">
-                    <h5>Mekar Laser</h5>
-                    <ul class="list-unstyled style-a">
-                        <li class="mb-2"><a href="#" class="nav-link"><i class="fa-solid fa-map-location-dot"></i> JL.
-                                Lingkar Purbalingga</a></li>
-                        <li class="mb-2"><a href="mailto:website@gmial.com" class="nav-link"><i class="fa-solid fa-envelope"></i> mekar@gmail.com</a></li>
-                        <li class="mb-2"><a href="tel:0888895258" class="nav-link"><i class="fa-solid fa-phone"></i> +62
-                                xxx-xxxx-xxxx</a></li>
-                    </ul>
+                    <h5>Mekar Laser <span class="badge bg-dark text-white">Cutting Digital</span></h5>
+                    <p>Dunia terus bergerak, Kami percaya bahwa perubahan dalam bisnis adalah satu hal yang niscaya. Mekar Laser hadir untuk menjadi Solusi.</p>
                 </div>
-                <div class="col-6 col-lg-3 mb-3">
+                <div class="col-6 col-lg-3 mb-3 text-">
                     <hr class="line1">
-                    <h5>Menu</h5>
+                    <h5>LATEST ARTICLE</h5>
                     <ul class="list-unstyled style-a">
-                        <li class="mb-2"><a href="/" class="nav-link"><i class="fa-solid fa-home"></i> Home</a></li>
-                        <li class="mb-2"><a href="#" class="nav-link"><i class="fa-solid fa-box"></i> Produk</a></li>
-                        <li class="mb-2"><a href="#" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
-                        <li class="mb-2"><a href="/talk" class="nav-link"><i class="fa-solid fa-phone"></i> Contact</a>
+                        <li class="mb-2 mt-5">
+                            <a href="#" class="nav-link">
+                                <h5>Pembuatan Website</h5>
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="mb-2">
+                            <a href="#" class="nav-link">
+                                <h5>Pembuatan Neon Box</h5>
+                            </a>
+                        </li>
+                        <hr>
+                        <li class="mb-2">
+                            <a href="#" class="nav-link">
+                                <h5>Pembuatan Huruf Timbul</h5>
+                            </a>
+                        </li>
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3">
+                <div class="col-6 col-lg-3 mb-3 text-dark">
                     <hr class="line1">
                     <h5>USEFUL LINKS</h5>
                     <ul class="list-unstyled style-a">
-                        <li class="mb-2"><a href="/portfolio" class="nav-link"> Portofolio</a></li>
+                        <li class="mb-2"><a href="/portofolio" class="nav-link"> Portofolio</a></li>
                         <li class="mb-2"><a href="/team" class="nav-link">About Us</a></li>
                         <li class="mb-2"><a href="/carrer" class="nav-link">Carrer</a></li>
                         <li class="mb-2"><a href="/workphase" class="nav-link">How to Order</a></li>
@@ -53,7 +59,7 @@
                         <li class="mb-2"><a href="/terms-condition" class="nav-link">Terms Condition</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-3 mb-3">
+                <div class="col-6 col-lg-3 mb-3 text-dark">
                     <hr class="line1">
                     <h5>Partner</h5>
                     <ul class="list-unstyled style-a">
