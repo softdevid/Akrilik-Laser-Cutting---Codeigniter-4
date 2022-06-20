@@ -137,9 +137,14 @@
                 <span class="text-uppercase">social</span>
                 <br>
                 <div class="social">
-                    <div class="row pt-4 ps-2">
+                    <div class="row pt-4 ps-2 justify-content-center">
                         <a href="#" class="nav-link"><i class="fa-brands fa-youtube youtube"></i></a>
+                        &nbsp;
                         <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        &nbsp;
+                        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        &nbsp;
+                        <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
             </div>
