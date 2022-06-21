@@ -424,6 +424,13 @@ span.text-uppercase {
 #img-profil {
   min-width: 100%;
   min-height: auto;
-  max-height: 18rem;
+  max-height: 17rem;
+  border-radius: 10px;
+}
+
+#img-profil-desain {
+  min-width: 100%;
+  min-height: auto;
+  max-height: 20rem;
   border-radius: 10px;
 }
