@@ -1,7 +1,6 @@
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
-<div class="jumbotron bg-cover text-white"
-    style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/profile.jpg); padding: 120px; width: 100%;">
+<div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/profile.jpg); padding: 120px; width: 100%;">
     <div class="container">
         <h1 class="display-7">Profile</h1>
         <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
@@ -55,7 +54,7 @@
                 <li>Sistem operasi yang rapi dan jelas</li>
             </ul>
         </article>
-        <article class="article-5">
+        <article class="article-5 p-3">
             <p>
             <h3 class="fw-bold">Aktivitas Desain Komunikasi Visual/ Desain Grafis</h3>
             </p>
@@ -65,7 +64,7 @@
                 dengan pembuatan materi dengan fungsi identifikasi, informasi dan persuasi yang diimplementasikan pada
                 identitas jenama (brand), logo, desain iklan, infografik, dan stasioneri.</p>
         </article>
-        <article class="article-6">
+        <article class="article-6 p-3">
             <p>
             <h3 class="fw-bold">Aktivitas Konsultasi dan Perancangan Internet of Things (IoT)</h3>
             </p>
@@ -76,7 +75,25 @@
                 didalamnya. Kelompok ini tidak mencakup aktivitas manufaktur chip (26120) dan aktivitas
                 penerbitan/pengembangan perangkat lunak IoT (58200 dan 62019).</p>
         </article>
-        <article class="article-7">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" data-aos="fade-right" data-aos-duration="1000">
+                <div class="h-100 border-0">
+                    <img src="/img/profil/iot1.jpeg" class="card-img-top" id="img-profil" alt="...">
+                </div>
+            </div>
+            <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+                <div class="h-100 border-0">
+                    <img src="/img/profil/iot2.jpeg" class="card-img-top" id="img-profil" alt="...">
+                </div>
+            </div>
+            <div class="col" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="250">
+                <div class="h-100 border-0">
+                    <img src="/img/profil/iot3.jpeg" class="card-img-top" id="img-profil" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <article class="article-7 p-3">
             <p>
             <h3 class="fw-bold">Industri Pengolahan Lainnya YTDL</h3>
             </p>
