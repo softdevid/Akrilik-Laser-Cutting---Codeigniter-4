@@ -81,3 +81,27 @@ gsap.from(".sub-aside", {
   opacity: 0,
   x: -100,
 });
+gsap.from(".sub-item1", {
+  duration: 1,
+  delay: 3.5,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".sub-item2", {
+  duration: 1,
+  delay: 4,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".sub-item3", {
+  duration: 1,
+  delay: 4.5,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".sub-item4", {
+  duration: 1,
+  delay: 5,
+  opacity: 0,
+  x: -100,
+});
