@@ -9,7 +9,7 @@ class Blog extends Migration
     public function up()
     {
         $this->forge->addField([
-            'blog_id' => [
+            'id' => [
                 'type'           => 'INT',
                 'constraint'     => 11,
                 'unsigned'       => true,
@@ -24,7 +24,7 @@ class Blog extends Migration
                 'null' => true,
             ],
             'image' => [
-                'type' => 'varchar',
+                'type' => 'VARCHAR',
                 'constraint' => 150,
             ],
             'created_at' => [
