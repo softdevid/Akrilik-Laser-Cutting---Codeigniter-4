@@ -10,3 +10,46 @@ ERROR - 2022-06-21 03:58:36 --> Incorrect table definition; there can be only on
 ERROR - 2022-06-21 04:06:41 --> Error connecting to the database: 対象のコンピューターによって拒否されたため、接続できませんでした。
 ERROR - 2022-06-21 04:07:30 --> Error connecting to the database: 対象のコンピューターによって拒否されたため、接続できませんでした。
 ERROR - 2022-06-21 04:08:15 --> Error connecting to the database: Unknown database 'mekarlaser'
+ERROR - 2022-06-21 07:43:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAINT `...' at line 5
+ERROR - 2022-06-21 07:44:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAINT `...' at line 5
+ERROR - 2022-06-21 08:03:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':nama:, :jabatan:, :gambar:)' at line 1
+ERROR - 2022-06-21 08:04:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':nama:, :jabatan:, :gambar:)' at line 1
+ERROR - 2022-06-21 08:05:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':nama:, :jabatan:, :gambar:, :created_at:, :updated_at:)' at line 1
+ERROR - 2022-06-21 08:06:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':nama:, :jabatan:, :gambar:, :created_at:, :updated_at:)' at line 1
+ERROR - 2022-06-21 08:07:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1
+ERROR - 2022-06-21 08:08:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2) VALUES (:0:, :1:, :2:)' at line 1
+ERROR - 2022-06-21 08:10:00 --> Unknown column 'update_at' in 'field list'
+CRITICAL - 2022-06-21 08:21:18 --> Class "App\Models\TeamModel" not found
+in APPPATH\Controllers\About.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\About->team()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-21 08:21:19 --> Class "App\Models\TeamModel" not found
+in APPPATH\Controllers\About.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\About->team()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-21 08:25:52 --> Class "App\Models\TeamModel" not found
+in APPPATH\Controllers\About.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\About->team()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-21 08:30:41 --> Class "App\Models\TeamModel" not found
+in APPPATH\Controllers\About.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\About->team()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -12,16 +12,18 @@
 <div class="container">
     <div class="tab-pane fade show active mt-5" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col" data-aos="fade-up" data-aos-duration="1000">
-                <div class="h-100 border-0">
-                    <img src="/img/about/pakdedy.jpeg" class="card-img-top" id="img-team" alt="...">
-                    <div class="card-body mt-3">
-                        <h5 class="card-title">Dedy Suwito, S.Kom</h5>
-                        <p>Senior Software Developer</p>
+            <?php foreach ($team as $key => $value) { ?>
+                <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="h-100 border-0">
+                        <img src="/img/about/<?= $value['gambar'] ?>" class="card-img-top" id="img-team" alt="...">
+                        <div class="card-body mt-3">
+                            <h5 class="card-title"><?= $value['nama'] ?></h5>
+                            <p><?= $value['jabatan'] ?></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <?php } ?>
+            <!-- <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <div class="h-100 border-0">
                     <img src="/img/about/ardianto.jpeg" class="card-img-top" id="img-team" alt="...">
                     <div class="card-body mt-3">
@@ -47,7 +49,7 @@
                         <p>Junior Full-Stack Web Developer</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
