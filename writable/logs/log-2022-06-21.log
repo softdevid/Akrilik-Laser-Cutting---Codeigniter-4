@@ -1,0 +1,2 @@
+ERROR - 2022-06-21 03:36:28 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-06-21 03:38:35 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
