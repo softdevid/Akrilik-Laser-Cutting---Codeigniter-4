@@ -339,6 +339,9 @@ hr.line1 {
 hr.line2 {
   border: 1px solid red;
 }
+hr.line3 {
+  border: 1px solid red;
+}
 
 .row .col-md-3 {
   padding-left: 2rem;

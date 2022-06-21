@@ -20,10 +20,11 @@
             <div class="row">
                 <div class="col-lg-3 mb-3 text-dark">
                     <h5>Mekar Laser <span class="badge bg-dark text-white">Cutting Digital</span></h5>
-                    <p>Dunia terus bergerak, Kami percaya bahwa perubahan dalam bisnis adalah satu hal yang niscaya. Mekar Laser hadir untuk menjadi Solusi.</p>
+                    <p>Dunia terus bergerak, Kami percaya bahwa perubahan dalam bisnis adalah satu hal yang niscaya.
+                        Mekar Laser hadir untuk menjadi Solusi.</p>
                 </div>
                 <div class="col-6 col-lg-3 mb-3 text-">
-                    <hr class="line1">
+                    <hr class="line3">
                     <h5>LATEST ARTICLE</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2 mt-5">
@@ -47,7 +48,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3 mb-3 text-dark">
-                    <hr class="line1">
+                    <hr class="line3">
                     <h5>USEFUL LINKS</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="/portofolio" class="nav-link"> Portofolio</a></li>
@@ -60,7 +61,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3 mb-3 text-dark">
-                    <hr class="line1">
+                    <hr class="line3">
                     <h5>Partner</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="#" class="nav-link">Bima Helm</a></li>
@@ -76,8 +77,10 @@
     </footer>
 
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    <a class="whatsapp" href="https://wa.me/628888901970" target="_blank" title="Whatsapp"><i
+            class="fa-brands fa-whatsapp"></i></a>
+    <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i
+            class="fa fa-arrow-up"></i></button>
 
     <!-- scroll top button -->
 
@@ -85,33 +88,33 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
-        //Get the button:
-        mybutton = document.getElementById("myBtn");
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction()
-        };
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
         }
+    }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
     </script>
     <script src="/javascript/animation.js"></script>
     <script>
-        AOS.init({
-            once: false
-        });
+    AOS.init({
+        once: false
+    });
     </script>
 </body>
 
