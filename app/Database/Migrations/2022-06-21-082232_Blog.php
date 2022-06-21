@@ -19,6 +19,10 @@ class Blog extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
+            'blog_slug' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '100',
+            ],
             'blog_description' => [
                 'type' => 'TEXT',
                 'null' => true,
