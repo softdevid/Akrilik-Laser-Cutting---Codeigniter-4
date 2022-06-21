@@ -85,6 +85,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                        <div class="h-100 border-0">
+                            <img src="/img/portfolio/iot.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Pembuatan Prototype IOT</h5>
+                                <p class="card-text">Masa sekarang yang serba canggih yang membuat kita mengontrol dari jarak jauh. Perancangan IOT (Internet of Think)
+                                    yang memberi kemudahan bagi kita di masa sekarang. Mudah dan fleksibel. Miliki sekarang!
+                                </p>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-advertising" role="tabpanel" aria-labelledby="pills-advertising-tab" tabindex="0">
@@ -146,6 +158,18 @@
                                 <p class="card-text">Aplikasi desktop adalah aplikasi yang berjalan di desktop atau
                                     laptop komputer pengguna, manfaat utama dari aplikasi desktop adalah efisiensi
                                     tinggi dan fleksibilitas antarmuka pengguna.</p>
+                                <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                        <div class="h-100 border-0">
+                            <img src="/img/portfolio/iot.jpg" class="card-img-top" id="gambar" alt="...">
+                            <div class="card-body mt-3">
+                                <h5 class="card-title">Pembuatan Prototype IOT</h5>
+                                <p class="card-text">Masa sekarang yang serba canggih yang membuat kita mengontrol dari jarak jauh. Perancangan IOT (Internet of Think)
+                                    yang memberi kemudahan bagi kita di masa sekarang. Mudah dan fleksibel. Miliki sekarang!
+                                </p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>

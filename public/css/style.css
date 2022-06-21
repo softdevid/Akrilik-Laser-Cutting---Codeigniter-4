@@ -37,6 +37,7 @@
 body {
   font-family: sans-serif;
 }
+
 /* 
 .talk-main {
   padding: 80px;
@@ -339,6 +340,7 @@ hr.line1 {
 hr.line2 {
   border: 1px solid red;
 }
+
 hr.line3 {
   border: 1px solid red;
 }
@@ -417,4 +419,11 @@ span.text-uppercase {
 
 .social .row {
   padding-left: 13px;
+}
+
+#img-profil {
+  min-width: 100%;
+  min-height: auto;
+  max-height: 18rem;
+  border-radius: 10px;
 }
