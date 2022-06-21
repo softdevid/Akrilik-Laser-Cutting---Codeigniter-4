@@ -24,13 +24,14 @@
                                         <div class="card border-0 mb-3" style="max-width: 540px;">
                                             <div class="row g-0">
                                                 <div class="col-md-4 text-center">
-                                                    <span class="fa-stack" style="vertical-align: top; font-size: 40px">
+                                                    <span class="fa-stack stack1"
+                                                        style="vertical-align: top; font-size: 40px">
                                                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                         <i class="fa-solid fa-phone fa-stack-1x"></i>
                                                     </span>
                                                 </div>
                                                 <div class="col-md-8 text-md-start text-center">
-                                                    <div class="card-body">
+                                                    <div class="card-body isi-stack1">
                                                         <h5 class="card-title">+62 8112777054</h5>
                                                         <p class="card-text">24/7 support. Give us a call.</p>
                                                     </div>
@@ -40,13 +41,14 @@
                                         <div class="card border-0 mb-3" style="max-width: 540px;">
                                             <div class="row g-0">
                                                 <div class="col-md-4 text-center">
-                                                    <span class="fa-stack" style="vertical-align: top; font-size: 40px">
+                                                    <span class="fa-stack stack2"
+                                                        style="vertical-align: top; font-size: 40px">
                                                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                         <i class="fa-solid fa-location-dot fa-stack-1x"></i>
                                                     </span>
                                                 </div>
                                                 <div class="col-md-8 text-md-start text-center">
-                                                    <div class="card-body">
+                                                    <div class="card-body isi-stack2">
                                                         <h5 class="card-title">+62 8112777054</h5>
                                                         <p class="card-text">24/7 support. Give us a call.</p>
                                                     </div>
