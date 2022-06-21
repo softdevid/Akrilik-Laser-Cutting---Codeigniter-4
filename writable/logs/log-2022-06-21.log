@@ -1,3 +1,9 @@
 ERROR - 2022-06-21 03:36:28 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
 ERROR - 2022-06-21 03:38:35 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+<<<<<<< HEAD
 ERROR - 2022-06-21 03:51:59 --> Error connecting to the database: 対象のコンピューターによって拒否されたため、接続できませんでした。
+=======
+ERROR - 2022-06-21 03:44:42 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-06-21 03:55:51 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-06-21 03:58:36 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+>>>>>>> cc953e19b5079c7833879def5dec989e0448fbaa
