@@ -7,10 +7,10 @@
             <div class="card mb-3 border-0">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="/img/portfolio/iot.jpg" class="img-fluid rounded-start pt-4" alt="IOT">
+                        <img src="/img/portfolio/iot.jpg" class="img-fluid rounded-start pt-4 blog-gambar1" alt="IOT">
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body">
+                        <div class="card-body isi1">
                             <a href="" class="text-decoration-none">
                                 <h2 class="card-title">Desain IOT</h2>
                             </a>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <article class="pt-3">
+            <article class="pt-3 isi2">
                 <a href="" class="text-decoration-none">
                     <h2>Jasa Desain Pembuatan Aplikasi</h2>
                 </a>
@@ -44,10 +44,11 @@
             <div class="card mb-3 border-0 pt-5">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="/img/portfolio/portfolio.png" class="img-fluid rounded-start pt-4" alt="Portfolio">
+                        <img src="/img/portfolio/portfolio.png" class="img-fluid rounded-start pt-4 blog-gambar2"
+                            alt="Portfolio">
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body">
+                        <div class="card-body isi3">
                             <a href="" class="text-decoration-none">
                                 <h2 class="card-title">Pembuatan Aplikasi Web Portfolio</h2>
                             </a>

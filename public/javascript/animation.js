@@ -105,3 +105,38 @@ gsap.from(".sub-item4", {
   opacity: 0,
   x: -100,
 });
+gsap.from(".judul-blog", {
+  duration: 1,
+  opacity: 0,
+  y: -100,
+});
+gsap.from(".blog-gambar1", {
+  duration: 1,
+  delay: 2,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".blog-gambar2", {
+  duration: 1,
+  delay: 3,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".isi1", {
+  duration: 1,
+  delay: 2.5,
+  opacity: 0,
+  x: 100,
+});
+gsap.from(".isi2", {
+  duration: 1,
+  delay: 2.7,
+  opacity: 0,
+  y: 100,
+});
+gsap.from(".isi3", {
+  duration: 1,
+  delay: 3.5,
+  opacity: 0,
+  y: 100,
+});
