@@ -51,6 +51,18 @@ gsap.from(".judul-header", {
   opacity: 0,
   x: -100,
 });
+gsap.from(".line3", {
+  duration: 1,
+  delay: 0.5,
+  opacity: 0,
+  y: -100,
+});
+gsap.from("#search", {
+  duration: 1,
+  delay: 0.8,
+  opacity: 0,
+  y: 100,
+});
 gsap.from(".line1", {
   duration: 1,
   delay: 1,

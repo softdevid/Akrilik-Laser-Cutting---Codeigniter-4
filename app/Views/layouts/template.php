@@ -111,6 +111,7 @@
     }
     </script>
     <script src="/javascript/animation.js"></script>
+    <script src="/javascript/search.js"></script>
     <script>
     AOS.init({
         once: false

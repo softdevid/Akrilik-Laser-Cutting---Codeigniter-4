@@ -12,7 +12,7 @@
                     <div class="col-md-8">
                         <div class="card-body isi1">
                             <a href="" class="text-decoration-none">
-                                <h2 class="card-title">Desain IOT</h2>
+                                <h2 class="card-title judul-kartu">Desain IOT</h2>
                             </a>
                             <span>/ Blog, Prototype IOT / by CV. Mekar Cutting Digital</span>
                             <hr>
@@ -29,7 +29,7 @@
             </div>
             <article class="pt-3 isi2">
                 <a href="" class="text-decoration-none">
-                    <h2>Jasa Desain Pembuatan Aplikasi</h2>
+                    <h2 class="judul-kartu">Jasa Desain Pembuatan Aplikasi</h2>
                 </a>
                 <span>/ Blog, Digital Creative / by CV. Mekar Cutting Digital</span>
                 <hr>
@@ -50,7 +50,7 @@
                     <div class="col-md-8">
                         <div class="card-body isi3">
                             <a href="" class="text-decoration-none">
-                                <h2 class="card-title">Pembuatan Aplikasi Web Portfolio</h2>
+                                <h2 class="card-title judul-kartu">Pembuatan Aplikasi Web Portfolio</h2>
                             </a>
                             <span>/ Blog, Web Developer / by CV. Mekar Cutting Digital</span>
                             <hr>
@@ -66,6 +66,13 @@
         </div>
         <div class="col-md-3">
             <div class="container">
+                <hr class="line3">
+                <div class="container fs-6">
+                    <form class="d-flex" id="search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-dark" type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
                 <hr class="line1">
                 <span class="text-uppercase judul-aside">social</span>
                 <br>
