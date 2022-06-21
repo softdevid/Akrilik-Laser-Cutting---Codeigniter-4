@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="col-lg-6 col-xl-9">
-                            <h1>Let's Talk</h1>
+                            <h1 class="judul-talk">Let's Talk</h1>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,8 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-7" style="padding-left: 15px; padding-right: 15px;">
-                                        <div class="p-md-5 p-3" style="background-color: #f8f8f8;border-color: #dddddd;border-style: solid;border-width: 1px;border-radius: 2px;">
+                                        <div class="p-md-5 p-3"
+                                            style="background-color: #f8f8f8;border-color: #dddddd;border-style: solid;border-width: 1px;border-radius: 2px;">
                                             <form action="">
                                                 <div class="mb-2">
                                                     <label for="talk-name" class="form-label">Your Name</label>
@@ -111,7 +112,8 @@
                                             <div class="row g-0">
                                                 <div class="col-md-4 d-flex justify-content-center">
                                                     <div class="d-flex justify-content-center align-items-center">
-                                                        <span class="fa-stack" style="vertical-align: top; font-size: 40px">
+                                                        <span class="fa-stack"
+                                                            style="vertical-align: top; font-size: 40px">
                                                             <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                             <i class="fa-solid fa-building fa-stack-1x"></i>
                                                         </span>
@@ -120,7 +122,8 @@
                                                 <div class="col-md-8 text-md-start text-center">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Alegra Advertising Head Office</h5>
-                                                        <p class="card-text">Jl. Raya Beji No.41, Karangsalam Kidul.<br>Purwokerto, Jawa Tengah.<br>53152</p>
+                                                        <p class="card-text">Jl. Raya Beji No.41, Karangsalam
+                                                            Kidul.<br>Purwokerto, Jawa Tengah.<br>53152</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -131,7 +134,8 @@
                                             <div class="row g-0">
                                                 <div class="col-md-4 d-flex justify-content-center">
                                                     <div class="d-flex justify-content-center align-items-center">
-                                                        <span class="fa-stack" style="vertical-align: top; font-size: 40px">
+                                                        <span class="fa-stack"
+                                                            style="vertical-align: top; font-size: 40px">
                                                             <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                             <i class="fa-solid fa-building fa-stack-1x"></i>
                                                         </span>
@@ -140,7 +144,8 @@
                                                 <div class="col-md-8 text-md-start text-center">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Alegra Advertising Head Office</h5>
-                                                        <p class="card-text">Jl. Raya Beji No.41, Karangsalam Kidul.<br>Purwokerto, Jawa Tengah.<br>53152</p>
+                                                        <p class="card-text">Jl. Raya Beji No.41, Karangsalam
+                                                            Kidul.<br>Purwokerto, Jawa Tengah.<br>53152</p>
                                                     </div>
                                                 </div>
                                             </div>

@@ -1,6 +1,7 @@
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
-<div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/profile.jpg); padding: 120px; width: 100%;">
+<div class="jumbotron bg-cover text-white"
+    style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/profile.jpg); padding: 120px; width: 100%;">
     <div class="container">
         <h1 class="display-7">Profile</h1>
         <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
@@ -9,7 +10,7 @@
 </div>
 <div class="container">
     <!-- <div class="profile-p"> -->
-    <article class="article-1">
+    <article class="article-1 pt-5">
         <p> <b>Mekar Laser Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di
             kota Purbalingga.
             <b>Mekar Laser Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang

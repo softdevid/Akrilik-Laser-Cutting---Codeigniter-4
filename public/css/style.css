@@ -510,3 +510,25 @@ span.text-uppercase {
   max-height: 20rem;
   border-radius: 10px;
 }
+
+.judul-kartu {
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+.judul-kartu:hover {
+  text-decoration: none;
+  color: rgb(13, 101, 201);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul-blog {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.judul-talk {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 5rem;
+}
