@@ -395,6 +395,82 @@ span.text-uppercase {
   margin: 10px auto;
 }
 
+.sub-item1 .sub-header {
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.sub-item1 .sub-header:hover {
+  text-decoration: none;
+  color: rgb(13, 101, 201);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item1 .sub-item {
+  font-size: 15px;
+  text-decoration: none;
+  color: #0a2144;
+  padding: 0;
+}
+.sub-item2 .sub-header {
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.sub-item2 .sub-header:hover {
+  text-decoration: none;
+  color: rgb(13, 101, 201);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item2 .sub-item {
+  font-size: 15px;
+  text-decoration: none;
+  color: #0a2144;
+  padding: 0;
+}
+.sub-item3 .sub-header {
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.sub-item3 .sub-header:hover {
+  text-decoration: none;
+  color: rgb(13, 101, 201);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item3 .sub-item {
+  font-size: 15px;
+  text-decoration: none;
+  color: #0a2144;
+  padding: 0;
+}
+.sub-item4 .sub-header {
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+
+.sub-item4 .sub-header:hover {
+  text-decoration: none;
+  color: rgb(13, 101, 201);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-item4 .sub-item {
+  font-size: 15px;
+  text-decoration: none;
+  color: #0a2144;
+  padding: 0;
+}
 .sub-item .sub-header {
   text-decoration: none;
   color: #000000;
