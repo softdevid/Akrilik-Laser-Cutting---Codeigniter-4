@@ -193,30 +193,33 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/web.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/insight1.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
-                                <h5 class="card-title">Pembuatan Website</h5>
-                                <p class="card-text">Website menjadi fasilitas sangat penting untuk pemasaran dan scale up bisnis di era digital ini. Miliki sekarang!</p>
+                                <h5 class="card-title">Pengelasan kerangka Neon Box</h5>
+                                <p class="card-text">Ini adalah kegiatan proses pengelasan kerangka untuk neon box sebelum
+                                    dipasang neon box tersebut.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/3.png" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/insight2.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
-                                <h5 class="card-title">Produksi huruf timbul</h5>
-                                <p class="card-text">Huruf timbul kini menjadi bagian penting dalam Branding Offline. Banyaknya manfaat dan kegunaan menjadikan huruf timbul makin populer.</p>
+                                <h5 class="card-title">Pemasangan desain Neon Box</h5>
+                                <p class="card-text">Ini adalah kegiatan pemasangan neon box sebelum di satukan dengan
+                                    kerangka neon box</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="h-100 border-0">
-                            <img src="/img/services/neonbox.jpg" class="card-img-top" id="gambar" alt="...">
+                            <img src="/img/insight3.jpg" class="card-img-top" id="gambar" alt="...">
                             <div class="card-body mt-3">
-                                <h5 class="card-title">Produksi Neon Box</h5>
-                                <p class="card-text">Neon box merupakan produk paling penting yang harus dimiliki setiap pengusaha baik pemula maupun profesional. Miliki sekarang!</p>
+                                <h5 class="card-title">Pemasangan Huruf Timbul</h5>
+                                <p class="card-text">Ini adalah kegiatan pemasangan tulisan timbul. Di gambar tersebut
+                                    adalah contoh kegiatan pemasangan tulisan timbul untuk penamaan suatu ruangan.</p>
                                 <a href="#" class="btn btn-dark" id="button">Learn More</a>
                             </div>
                         </div>
