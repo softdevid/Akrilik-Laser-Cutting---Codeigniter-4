@@ -27,9 +27,21 @@ gsap.from(".article-4", {
   opacity: 0,
   x: -100,
 });
-gsap.from(".article-4", {
+gsap.from(".article-5", {
   duration: 1,
-  delay: 2,
+  delay: 2.5,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".article-6", {
+  duration: 1,
+  delay: 3,
+  opacity: 0,
+  x: -100,
+});
+gsap.from(".article-7", {
+  duration: 1,
+  delay: 3.5,
   opacity: 0,
   x: -100,
 });

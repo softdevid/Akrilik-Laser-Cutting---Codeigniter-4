@@ -55,6 +55,40 @@
                 <li>Sistem operasi yang rapi dan jelas</li>
             </ul>
         </article>
+        <article class="article-5">
+            <p>
+            <h3 class="fw-bold">Aktivitas Desain Komunikasi Visual/ Desain Grafis</h3>
+            </p>
+            <p>Kelompok ini mencakup kegiatan penyediaan jasa desain komunikasi visual/desain grafis secara manual
+                maupun digital, serta statis (tidak bergerak) maupun dinamis (bergerak, interaktif), pada media cetak,
+                layar (gawai, tv, komputer, layar LED dan sejenisnya), luring, daring atau virtual, yang berhubungan
+                dengan pembuatan materi dengan fungsi identifikasi, informasi dan persuasi yang diimplementasikan pada
+                identitas jenama (brand), logo, desain iklan, infografik, dan stasioneri.</p>
+        </article>
+        <article class="article-6">
+            <p>
+            <h3 class="fw-bold">Aktivitas Konsultasi dan Perancangan Internet of Things (IoT)</h3>
+            </p>
+            <p>Kelompok ini mencakup kegiatan layanan konsultasi, perancangan dan pembuatan solusi sistem terintegrasi
+                berdasarkan pesanan (bukan siap pakai) dengan cara memodifikasi perangkat keras (hardware) yang sudah
+                ada, seperti sensor, microcontroller, dan perangkat keras (hardware) lainnya. Modifikasi tersebut
+                dilakukan pada perangkat keras (hardware) IoT dan/atau perangkat lunak (software) yang tertanam
+                didalamnya. Kelompok ini tidak mencakup aktivitas manufaktur chip (26120) dan aktivitas
+                penerbitan/pengembangan perangkat lunak IoT (58200 dan 62019).</p>
+        </article>
+        <article class="article-7">
+            <p>
+            <h3 class="fw-bold">Industri Pengolahan Lainnya YTDL</h3>
+            </p>
+            <p>Kelompok ini mencakup usaha pembuatan barang-barang yang tidak diklasifikasikan di tempat lain, seperti
+                papan nama, papan reklame (papan atau lampu display), segala macam payung, pipa rokok, lencana, piala,
+                medali, stempel, tongkat, kap lampu, lilin, segala macam kancing, sapu, sikat ijuk, tempat cerutu dan
+                sirih, pipa rokok, sisir, penyemprot wangi-wangian, botol vakum dan bejana vakum untuk keperluan pribadi
+                atau rumah tangga, wig (rambut palsu), janggut palsu, bulu mata palsu dan lainnya yang belum tercakup
+                dalam golongan lainnya, termasuk pembuatan korek api dari logam dan pembuatan perhiasan imitasi, boneka
+                yang digunakan oleh penjahit untuk mengenakan baju, peti jenazah. Pembuatan sumbu lampu dimasukan dalam
+                kelompok 13942.</p>
+        </article>
     </div>
 </div>
 <?= $this->endSection(); ?>
