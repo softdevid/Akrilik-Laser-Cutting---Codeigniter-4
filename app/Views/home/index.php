@@ -171,8 +171,8 @@
                         <a href="/portfolio/web-instansi" class="text-white">
                             <img src="/img/portfolio/web.png" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
-                                <h5>Papan Reklame (Billboard)</h5>
-                                <span>Project Reklame</span>
+                                <h5>Website Perusahaan</h5>
+                                <span>Digital Creative</span>
                             </div>
                         </a>
                     </div>

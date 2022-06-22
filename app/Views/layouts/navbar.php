@@ -1,13 +1,12 @@
 <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container">
-        <ul class="nav justify-content-start align-items-center">
+        <ul class="nav justify-content-start align-items-center text-center">
             <li class="nav-item">
-                <a class="nav-link text-white left-nav" aria-current="page" href="telp:+628888901970">Konsultasi:
-                    088889019701</a>
+                <a class="nav-link text-white left-nav" aria-current="page" href="telp:+62 85728060268">+62 857-2806-0268</a>
             </li>
         </ul>
 
-        <ul class="nav d-flex justify-content-end align-items-center">
+        <!-- <ul class="nav d-flex">
             <li class="nav-item">
                 <a class="nav-link text-white active" aria-current="page" href="#"><i class="fa-brands fa-youtube"></i></a>
             </li>
@@ -20,9 +19,10 @@
             <li class="nav-item">
                 <a class="nav-link text-white" href="#"><i class="fa-brands fa-twitter"></i></a>
             </li>
-        </ul>
+        </ul> -->
     </div>
 </nav>
+
 
 
 <nav class="navbar navbar-expand-lg bg-light sticky-top">
