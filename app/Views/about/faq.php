@@ -3,7 +3,7 @@
 <div class="jumbotron bg-cover text-white"
     style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/about/faq.png); padding: 120px; width: 100%;">
     <div class="container">
-        <h1 class="display-7">FAQ : Answer Question</h1>
+        <h1 class="display-7">FAQ : Frequently Asked Question</h1>
         <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
             featured content or information.</p> -->
     </div>
@@ -21,21 +21,21 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Apakah Alegra Advertising dapat dipercaya?
+                                    Apakah Mekar Cutting Digital dapat dipercaya?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Tentu saja kami dapat dipercaya, Insya Allah kami amanah. Kami
-                                    tidak akan menyia-nyiakan reputasi kami selama 5 tahun sebagai perusahaan
+                                    tidak akan menyia-nyiakan reputasi kami selama 2 tahun sebagai perusahaan
                                     Advertising
-                                    yang berkembang di Purwokerto. Mekar Laser Cutting Digital juga memiliki legalitas
+                                    yang berkembang di Purbalingga. Mekar Laser Cutting Digital juga memiliki legalitas
                                     dan
                                     izin usaha
                                     bidang Advertising dan Periklanan yang tercatat di Kementerian Hukum dan HAM atas
                                     nama
-                                    CV. Alegra Multi Mandiri.
+                                    CV. Mekar Cutting Digital.
                                 </div>
                             </div>
                         </div>
@@ -66,10 +66,8 @@
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     Kami biasa mengerjakan reklame pembuatan huruf timbul, neon box,
-                                    pylon sign, neon sign, dll. Selain itu kami juga biasa mengerjakan pembuatan dan
-                                    pemasangan booth pameran, backdrop, kanopi, pagar, atap baja ringan. Kami juga
-                                    menerima
-                                    pembuatan gerobak untuk jualan.
+                                    pylon sign, neon sign, dll. Selain itu kami juga biasa mengerjakan pembuatan
+                                    aplikasi web dan dekstop.
                                 </div>
                             </div>
                         </div>
@@ -105,7 +103,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    Apa aja sih yang bisa Alegra Creative lakukan?
+                                    Apa aja sih yang bisa Mekar Laser Team lakukan?
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
@@ -114,9 +112,7 @@
                                     Kami sebagai perusahaan Advertising yang bergerak dalam industri kreatif pada
                                     dasarnya
                                     bisa melakukan apapun, mulai dari Pembuatan Branding Logo Usaha, Pembuatan dan
-                                    Pengelolaan Website (Website Development) dan Sosial Media Management (SMM), Search
-                                    Engine Optimization (SEO), Foto Produk Profesional, Content dan Media Placement,
-                                    Pembuatan Content Marketing, Analisa serta Audit Sosial Media dan Website
+                                    Pengelolaan Website (Website Development).
                                 </div>
                             </div>
                         </div>
