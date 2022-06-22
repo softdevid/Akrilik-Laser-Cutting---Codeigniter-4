@@ -76,31 +76,58 @@
                                     <div class="col-lg-7" style="padding-left: 15px; padding-right: 15px;">
                                         <div class="p-md-5 p-3 form-talk"
                                             style="background-color: #f8f8f8;border-color: #dddddd;border-style: solid;border-width: 1px;border-radius: 2px;">
-                                            <form action="">
+                                            <form method="POST" action="" class="needs-validation" novalidate>
                                                 <div class="mb-2">
-                                                    <label for="talk-name" class="form-label">Your Name</label>
-                                                    <input type="text" class="form-control form-control-lg"
-                                                        id="talk-name">
+                                                    <label for="talk-name" class="form-label">Nama</label>
+                                                    <input type="text" name="nama" class="form-control form-control-lg"
+                                                        id="talk-name" required>
+                                                        <div class="invalid-feedback">
+                                                            Isikan nama
+                                                        </div>
                                                 </div>
                                                 <div class="mb-2">
-                                                    <label for="talk-email" class="form-label">Your Email</label>
-                                                    <input type="email" class="form-control form-control-lg"
-                                                        id="talk-email">
+                                                    <label for="talk-email" class="form-label">Email</label>
+                                                    <input type="email" name="email" class="form-control form-control-lg"
+                                                        id="talk-email" required>
+                                                        <div class="invalid-feedback">
+                                                            Isikan email
+                                                        </div>
                                                 </div>
                                                 <div class="mb-2">
                                                     <label for="talk-subject" class="form-label">Subject</label>
-                                                    <input type="text" class="form-control form-control-lg"
-                                                        id="talk-subject">
+                                                    <input type="text" name="subjek" class="form-control form-control-lg"
+                                                        id="talk-subject" required>
+                                                        <div class="invalid-feedback">
+                                                            Isikan subjek
+                                                        </div>
                                                 </div>
                                                 <div class="mb-2">
-                                                    <label for="talk-message" class="form-label"> Your message
-                                                        (optional)</label>
-                                                    <textarea rows="10" cols="40" class="form-control"
-                                                        id="talk-message"></textarea>
+                                                    <label for="talk-message" class="form-label">Pesan (Optional)</label>
+                                                    <textarea name="pesan" class="form-control" id="talk-message"></textarea>
                                                 </div>
-                                                <button type="submit" class="btn btn-lg text-white"
+                                                <button type="submit" name="kirim" class="btn btn-lg text-white"
                                                     style="padding: 8px 30px 8px 30px; background-color: #173052;">Submit</button>
                                             </form>
+                                            <script type="text/javascript">
+                                                (() => {
+                                                'use strict'
+
+                                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                                const forms = document.querySelectorAll('.needs-validation')
+
+                                                // Loop over them and prevent submission
+                                                Array.from(forms).forEach(form => {
+                                                    form.addEventListener('submit', event => {
+                                                    if (!form.checkValidity()) {
+                                                        event.preventDefault()
+                                                        event.stopPropagation()
+                                                    }
+
+                                                    form.classList.add('was-validated')
+                                                    }, false)
+                                                })
+                                                })()
+                                            </script>
                                         </div>
                                     </div>
                                 </div>
