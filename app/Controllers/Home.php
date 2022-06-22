@@ -12,12 +12,18 @@ use League\OAuth2\Client\Provider\Google;
 
 class Home extends BaseController
 {
+    public function __construct()
+    {
+        $this->PortfolioModel = new PortfolioModel();
+        $this->BlogModel = new BlogModel();
+    }
 
     public function index()
 
     {
         $data = [
             'title' => 'HOME',
+            'portfolio' => $this->PortfolioModel->getPortfolio()
         ];
         return view('home/index', $data);
     }
