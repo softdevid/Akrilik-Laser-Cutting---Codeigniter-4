@@ -11,14 +11,14 @@
 <div class="container">
     <!-- <div class="profile-p"> -->
     <article class="article-1 pt-5">
-        <p> <b>Mekar Laser Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di
+        <p> <b>CV. Mekar Cutting Digital</b> adalah perusahaan Advertising dan Digital Marketing yang berbasis di
             kota Purbalingga.
-            <b>Mekar Laser Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang
+            <b>CV. Mekar Cutting Digital</b> sudah berpengalaman dan memiliki ratusan portfolio dalam bidang
             periklanan, promosi dan branding
             selama lebih dari 5 tahun. Spesialis Jasa Pembuatan Reklame Huruf Timbul, Neon Box, Baliho dan Branding
             instansi yang selalu mengutamakan
             kualitas dan mengedepankan professionalisme kerja serta berkomitmen memberikan harga yang realistis bagi
-            klien. Selain produksi Reklame, <b>Mekar Laser Cutting Digital</b> juga melayani kebutuhan Digital
+            klien. Selain produksi Reklame, <b>CV. Mekar Cutting Digital</b> juga melayani kebutuhan Digital
             Marketing sebagai solusi pemasaran digital. Kami menawarkan beberapa macam kebutuhan akan jasa digital
             marketing antara lain, pembuatan website, optimasi website, audit dan analisa website / social media,
             pengelolaan social media, foto produk, pembuatan logo, personal / politik branding.
@@ -38,9 +38,7 @@
         </p>
         <p>Kami melayani order pengerjaan huruf timbul maupun cutting laser dan segala bentuk kebutuhan produk
             selain reklame. Area service kami adalah seluruh daerah di Negara Kesatuan Republik Indonesia, khususnya
-            daerah Jawa Tengah, Banyumas, Purwokerto, Purbalingga, Cilacap, Banjarnegara, Wonosobo, Bumiayu, Tegal,
-            Pekalongan, Bandung, Sukabumi, Kebumen, Purworejo, Kutoarjo, Semarang, Kudus, Pati, Kendal, Sukoharjo,
-            Solo, Klaten, Yogyakarta dan daerah lainnya.</p>
+            daerah Jawa Tengah, Banyumas, Purwokerto, dan Purbalingga.</p>
     </article>
     <article class="article-4">
         <p>

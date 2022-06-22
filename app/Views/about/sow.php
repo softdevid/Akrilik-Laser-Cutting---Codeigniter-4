@@ -15,13 +15,13 @@
             <p>
             <h3 class="fw-bold">Desain & Produksi Signage</h3>
             </p>
-            <p>MEKAR LASER CUTTING DIGITAL telah bekerja mengerjakan banyak proyek pembuatan Signage, baik itu pembuatan
+            <p>CV. MEKAR CUTTING DIGITAL telah bekerja mengerjakan banyak proyek pembuatan Signage, baik itu pembuatan
                 huruf
                 timbul, pembuatan neon box dan pembuatan pylon. Dari area perumahan kecil seluas 60m2, kemudian
                 mengerjakan dan mengirim banyak proyek signage untuk Hotel, Bangunan Instansi, Gelanggang Olahraga,
-                Masjid, hingga Coffee Shop kecil. Sejak awal MEKAR LASER CUTTING DIGITAL tidak pernah membatasi
+                Masjid, hingga Coffee Shop kecil. Sejak awal CV. MEKAR CUTTING DIGITAL tidak pernah membatasi
                 klasifikasi
-                proyek yang dikerjakan, mengingat MEKAR LAER CUTTING DIGITAL memiliki semangat untuk meningkatkan citra
+                proyek yang dikerjakan, mengingat CV. MEKAR CUTTING DIGITAL memiliki semangat untuk meningkatkan citra
                 advertising dalam skala apapun.
             </p>
         </article>
@@ -30,7 +30,7 @@
             <p>
             <h3 class="fw-bold">Desain & Produksi Interior</h3>
             </p>
-            <p>Pada tahun 2021, Divisi Desain kami di MEKAR LAER CUTTING DIGITAL telah berkembang menjadi unit usaha
+            <p>Pada tahun 2021, Divisi Desain kami di CV. MEKAR CUTTING DIGITAL telah berkembang menjadi unit usaha
                 mandiri
                 baru dengan nama Alegra Interior. Sekarang, Alegra Interior sudah sanggup untuk melayani klien yang
                 membutuhkan Jasa Desain Interior, baik itu Desain Rumah atau tempat tinggal, Desain Hotel atau Villa,
@@ -42,13 +42,13 @@
             <p>
             <h3 class="fw-bold">Digital Creative</h3>
             </p>
-            <p>Pada tahun 2021 juga, Divisi Creative MEKAR LAER CUTTING DIGITAL telah menjadi unit usaha mandiri dengan
+            <p>Pada tahun 2021 juga, Divisi Creative CV. MEKAR CUTTING DIGITAL telah menjadi unit usaha mandiri dengan
                 nama
-                ALGRCRTV (Alegra Creative). Sekarang, ALGRCRTV dikenal sebagai ALEGRA DIGITAL CREATIVE, yang bertindak
+                MLTEAM (MEKAR LASER TEAM). Sekarang, MLTEAM dikenal sebagai MEKARLASER TEAM, yang bertindak
                 sebagai Perusahaan Digital Marketing untuk membangun dan mengembangkan semua aspek digital di bawah
-                MEKAR LAER CUTTING DIGITAL. Untuk proses administrasi, publikasi dan website Anda dapat mengunjungi
+                CV. MEKAR CUTTING DIGITAL. Untuk proses administrasi, publikasi dan website Anda dapat mengunjungi
                 website
-                alegracreative.com</p>
+                mekardigital.com</p>
         </article>
     </div>
 </div>
