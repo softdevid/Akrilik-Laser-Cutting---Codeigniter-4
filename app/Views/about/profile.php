@@ -42,18 +42,27 @@
     </article>
     <article class="article-4">
         <p>
-        <h3 class="fw-bold">Visi Misi Alegra Advertising</h3>
+        <h3 class="fw-bold">Visi Misi Mekar Cutting Digital</h3>
         </p>
-        <ul>
-            <li>Mencari Ridho Allah azza wa Jalla</li>
-            <li>Menghasilkan produk dan jasa dengan kecepatan dan mutu berstandar tinggi</li>
-            <li>Mensejahterakan personil perusahaan dan keluarganya, serta memberikan kebermanfaatan bagi lingkungan
-            </li>
-            <li>Layanan yang terpuji dan berkesan</li>
-            <li>Sistem operasi yang rapi dan jelas</li>
-        </ul>
+        <p>
+        <h4 class="fw-bold">Visi :</h4>
+        <p>
+            Menjadi perusahaan dalam bidang Costum Creative yang terbaik dengan mengedepankan semangat kreatif dan
+            inovatif
+        </p>
+        </p>
+        <p>
+        <h4 class="fw-bold">Misi :</h4>
+        </p>
+        <ol>
+            <li>Memberikan pelayanan yang terbaik kepada konsumen dalam bidang Costum Creative</li>
+            <li>Menjadikan semangat kreatif dan inovatif menjadi modal dasar untuk selalu bisa berkembang</li>
+            <li>Menghasilkan produk produk yang inovatif yang sesuai dan bermanfaat bagi masyarakat</li>
+            <li>Menciptakan suasana yang baik dalam bekerja, sebagai kebanggaan dalam bekerja.</li>
+            <li>Memberikan kontribusi dan peningkatan nilai bagi masyarakat sekitar </li>
+        </ol>
     </article>
-    <article class="article-5 pt-5">
+    <article class="article-5 pt-2">
         <p>
         <h3 class="fw-bold">Aktivitas Desain Komunikasi Visual/ Desain Grafis</h3>
         </p>
@@ -82,7 +91,7 @@
             </div>
         </div>
     </article>
-    <article class="article-6 pt-5">
+    <article class="article-6 pt-2">
         <p>
         <h3 class="fw-bold">Aktivitas Konsultasi dan Perancangan Internet of Things (IoT)</h3>
         </p>

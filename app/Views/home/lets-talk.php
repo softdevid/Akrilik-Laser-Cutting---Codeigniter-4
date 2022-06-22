@@ -73,7 +73,7 @@
                                     <div class="col-lg-7" style="padding-left: 15px; padding-right: 15px;">
                                         <div class="p-md-5 p-3 form-talk"
                                             style="background-color: #f8f8f8;border-color: #dddddd;border-style: solid;border-width: 1px;border-radius: 2px;">
-                                            <form method="POST" action="" class="needs-validation" novalidate>
+                                            <form method="POST" action="/talk/send-mail/" enctype="multipart/form-data" class="needs-validation" novalidate>
                                                 <div class="mb-2">
                                                     <label for="talk-name" class="form-label">Nama</label>
                                                     <input type="text" name="nama" class="form-control form-control-lg"
