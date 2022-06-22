@@ -50,6 +50,9 @@ $routes->get('/faq', 'About::faq');
 // routes services
 $routes->get('/services/pembuatan-website', 'Services::pembuatan_website');
 
+
+// router admin
+$routes->get('/admin', 'Admin::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
