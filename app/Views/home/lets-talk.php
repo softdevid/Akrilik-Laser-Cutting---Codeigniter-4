@@ -20,18 +20,17 @@
                         <div class="talk-content">
                             <div class="col-12">
                                 <div class="row" style="margin-left: -15px;margin-right: -15px;">
-                                    <div class="col-lg-5" style="padding-left: 15px; padding-right: 15px;">
+                                    <div class="col-lg-5 stack1" style="padding-left: 15px; padding-right: 15px;">
                                         <div class="card border-0 mb-3" style="max-width: 540px;">
                                             <div class="row g-0">
                                                 <div class="col-md-4 text-center">
-                                                    <span class="fa-stack stack1"
-                                                        style="vertical-align: top; font-size: 40px">
+                                                    <span class="fa-stack" style="vertical-align: top; font-size: 40px">
                                                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                         <i class="fa-solid fa-phone fa-stack-1x"></i>
                                                     </span>
                                                 </div>
                                                 <div class="col-md-8 text-md-start text-center">
-                                                    <div class="card-body isi-stack1">
+                                                    <div class="card-body">
                                                         <h5 class="card-title">+62 8112777054</h5>
                                                         <p class="card-text">24/7 support. Give us a call.</p>
                                                     </div>
@@ -41,14 +40,13 @@
                                         <div class="card border-0 mb-3" style="max-width: 540px;">
                                             <div class="row g-0">
                                                 <div class="col-md-4 text-center">
-                                                    <span class="fa-stack stack2"
-                                                        style="vertical-align: top; font-size: 40px">
+                                                    <span class="fa-stack" style="vertical-align: top; font-size: 40px">
                                                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                         <i class="fa-solid fa-location-dot fa-stack-1x"></i>
                                                     </span>
                                                 </div>
                                                 <div class="col-md-8 text-md-start text-center">
-                                                    <div class="card-body isi-stack2">
+                                                    <div class="card-body">
                                                         <h5 class="card-title">+62 8112777054</h5>
                                                         <p class="card-text">24/7 support. Give us a call.</p>
                                                     </div>
@@ -58,14 +56,13 @@
                                         <div class="card border-0 mb-3" style="max-width: 540px;">
                                             <div class="row g-0">
                                                 <div class="col-md-4 text-center">
-                                                    <span class="fa-stack stack3"
-                                                        style="vertical-align: top; font-size: 40px">
+                                                    <span class="fa-stack" style="vertical-align: top; font-size: 40px">
                                                         <i class="fa-regular fa-circle fa-stack-2x"></i>
                                                         <i class="fa-solid fa-envelope fa-stack-1x"></i>
                                                     </span>
                                                 </div>
                                                 <div class="col-md-8 text-md-start text-center">
-                                                    <div class="card-body isi-stack3">
+                                                    <div class="card-body">
                                                         <h5 class="card-title">marketing@alegra.co.id</h5>
                                                         <p class="card-text">For technical issues and requests.</p>
                                                     </div>
@@ -81,35 +78,37 @@
                                                     <label for="talk-name" class="form-label">Nama</label>
                                                     <input type="text" name="nama" class="form-control form-control-lg"
                                                         id="talk-name" required>
-                                                        <div class="invalid-feedback">
-                                                            Isikan nama
-                                                        </div>
+                                                    <div class="invalid-feedback">
+                                                        Isikan nama
+                                                    </div>
                                                 </div>
                                                 <div class="mb-2">
                                                     <label for="talk-email" class="form-label">Email</label>
-                                                    <input type="email" name="email" class="form-control form-control-lg"
-                                                        id="talk-email" required>
-                                                        <div class="invalid-feedback">
-                                                            Isikan email
-                                                        </div>
+                                                    <input type="email" name="email"
+                                                        class="form-control form-control-lg" id="talk-email" required>
+                                                    <div class="invalid-feedback">
+                                                        Isikan email
+                                                    </div>
                                                 </div>
                                                 <div class="mb-2">
                                                     <label for="talk-subject" class="form-label">Subject</label>
-                                                    <input type="text" name="subjek" class="form-control form-control-lg"
-                                                        id="talk-subject" required>
-                                                        <div class="invalid-feedback">
-                                                            Isikan subjek
-                                                        </div>
+                                                    <input type="text" name="subjek"
+                                                        class="form-control form-control-lg" id="talk-subject" required>
+                                                    <div class="invalid-feedback">
+                                                        Isikan subjek
+                                                    </div>
                                                 </div>
                                                 <div class="mb-2">
-                                                    <label for="talk-message" class="form-label">Pesan (Optional)</label>
-                                                    <textarea name="pesan" class="form-control" id="talk-message"></textarea>
+                                                    <label for="talk-message" class="form-label">Pesan
+                                                        (Optional)</label>
+                                                    <textarea name="pesan" class="form-control"
+                                                        id="talk-message"></textarea>
                                                 </div>
                                                 <button type="submit" name="kirim" class="btn btn-lg text-white"
                                                     style="padding: 8px 30px 8px 30px; background-color: #173052;">Submit</button>
                                             </form>
                                             <script type="text/javascript">
-                                                (() => {
+                                            (() => {
                                                 'use strict'
 
                                                 // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -118,15 +117,15 @@
                                                 // Loop over them and prevent submission
                                                 Array.from(forms).forEach(form => {
                                                     form.addEventListener('submit', event => {
-                                                    if (!form.checkValidity()) {
-                                                        event.preventDefault()
-                                                        event.stopPropagation()
-                                                    }
+                                                        if (!form.checkValidity()) {
+                                                            event.preventDefault()
+                                                            event.stopPropagation()
+                                                        }
 
-                                                    form.classList.add('was-validated')
+                                                        form.classList.add('was-validated')
                                                     }, false)
                                                 })
-                                                })()
+                                            })()
                                             </script>
                                         </div>
                                     </div>
