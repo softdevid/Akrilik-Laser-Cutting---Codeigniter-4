@@ -53,6 +53,7 @@ in APPPATH\Controllers\About.php on line 20.
  3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+<<<<<<< HEAD
 ERROR - 2022-06-21 22:04:14 --> Unknown column 'client' in 'field list'
 ERROR - 2022-06-21 22:05:46 --> Unknown column 'client' in 'field list'
 ERROR - 2022-06-21 22:11:03 --> Unknown column 'client' in 'field list'
@@ -64,10 +65,41 @@ in APPPATH\Views\home\portfolio.php on line 45.
  4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/portfolio', [], true)
  5 APPPATH\Controllers\Home.php(42): view('home/portfolio', [...])
  6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->portfolio()
+=======
+ERROR - 2022-06-21 21:11:20 --> Table 'mekarlaser.team' doesn't exist
+CRITICAL - 2022-06-21 21:11:20 --> Table 'mekarlaser.team' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `team`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `team`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `team`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `team`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TeamModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\About.php(23): App\Models\TeamModel->getTeam()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\About->team()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-21 22:30:26 --> Undefined variable $blog
+in APPPATH\Views\home\blog.php on line 7.
+ 1 APPPATH\Views\home\blog.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'APPPATH\\Views\\home\\blog.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('home/blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->blog()
+>>>>>>> 4040e67994f5362f84830594c7ca2823abbcbfa7
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+<<<<<<< HEAD
 CRITICAL - 2022-06-21 22:40:22 --> Undefined array key "jenis_prodk"
 in APPPATH\Views\home\portfolio.php on line 64.
  1 APPPATH\Views\home\portfolio.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_prodk"', 'APPPATH\\Views\\home\\portfolio.php', 64)
@@ -76,6 +108,16 @@ in APPPATH\Views\home\portfolio.php on line 64.
  4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/portfolio', [], true)
  5 APPPATH\Controllers\Home.php(42): view('home/portfolio', [...])
  6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->portfolio()
+=======
+CRITICAL - 2022-06-21 22:33:02 --> Undefined variable $blog
+in APPPATH\Views\home\blog.php on line 7.
+ 1 APPPATH\Views\home\blog.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'APPPATH\\Views\\home\\blog.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(46): view('home/blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->blog()
+>>>>>>> 4040e67994f5362f84830594c7ca2823abbcbfa7
  7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
