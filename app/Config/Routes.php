@@ -48,7 +48,7 @@ $routes->get('/sow', 'About::sow');
 $routes->get('/faq', 'About::faq');
 
 // routes services
-$routes->get('/service/pembuatan-website', 'Services::pembuatan_website');
+$routes->get('/services/pembuatan-website', 'Services::pembuatan_website');
 
 /*
  * --------------------------------------------------------------------

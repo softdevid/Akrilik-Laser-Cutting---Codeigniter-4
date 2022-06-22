@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\BlogModel;
+
 class Home extends BaseController
 {
 
@@ -40,8 +42,10 @@ class Home extends BaseController
     public function blog()
 
     {
+        $model = new BlogModel();
         $data = [
-            'title' => 'BLOG'
+            'title' => 'BLOG',
+            'blog' => $model->getBlog()
         ];
         return view('home/blog', $data);
     }
