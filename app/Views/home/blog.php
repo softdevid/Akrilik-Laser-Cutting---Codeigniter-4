@@ -6,25 +6,24 @@
         <div class="col-md-9 pt-5">
             <div class="card mb-3 border-0">
                 <div class="row g-0">
+                    <?php foreach ($blog as $key => $value) { ?>
                     <div class="col-md-4">
-                        <img src="/img/portfolio/iot.jpg" class="img-fluid rounded-start pt-4 blog-gambar1" alt="IOT">
+                        <img src="/img/about/<?= $value['image'] ?>" class="img-fluid rounded-start pt-4 blog-gambar1"
+                            id="img-blog" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body isi1">
                             <a href="" class="text-decoration-none">
-                                <h2 class="card-title judul-kartu">Desain IOT</h2>
+                                <h2 class="card-title judul-kartu"><?= $value['blog_title'] ?></h2>
                             </a>
                             <span>/ Blog, Prototype IOT / by CV. Mekar Cutting Digital</span>
                             <hr>
-                            <p class="card-text pt-3 fs-5">Internet untuk Segala-(nya) (bahasa Inggris: Internet of
-                                Things,
-                                atau dikenal juga dengan singkatan IoT) merupakan sebuah konsep yang bertujuan untuk
-                                memperluas manfaat dari konektivitas internet yang tersambung secara terus-menerus.[...]
-                            </p>
+                            <p class="card-text pt-3 fs-5"><?= $value['blog_description'] ?></p>
                             <a href="" class="btn btn-dark text-white text-decoration-none text-capitalize">read
                                 more</a>
                         </div>
                     </div>
+                    <?php } ?>
                 </div>
             </div>
             <article class="pt-3 isi2">
