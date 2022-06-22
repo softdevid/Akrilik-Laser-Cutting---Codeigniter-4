@@ -29,7 +29,7 @@
                     <?php foreach ($portfolio as $key => $value) { ?>
                         <div class="col">
                             <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down" data-aos-duration="1000">
-                                <a href="#" class="text-white">
+                                <a href="/portfolio/<?= $value['slug'] ?>" class="text-white">
                                     <img src="/img/portfolio/<?= $value['gambar'] ?>" id="gambar" class="card-img" alt="Portfolio">
                                     <div class="overlay-content card-img-overlay text-bottom">
                                         <h5><?= $value['judul_produk'] ?></h5>

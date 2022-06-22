@@ -50,8 +50,12 @@ $routes->get('/sow', 'About::sow');
 $routes->get('/faq', 'About::faq');
 
 // routes services
-$routes->get('/services/pembuatan-website', 'Services::pembuatan_website');
+$routes->get('/services/(:segment)', 'Home::detail_services/$1');
+$routes->get('/services/services-category/advertising', 'Services::services_advertising');
+$routes->get('/services/services-category/digitalmarketing', 'Services::services_digitalmarketing');
 
+//router detai portfolio
+$routes->get('/portfolio/(:segment)', 'Home::detail_portfolio/$1');
 
 // router admin
 $routes->get('/admin', 'Admin::index');

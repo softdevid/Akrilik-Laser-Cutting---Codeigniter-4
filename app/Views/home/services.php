@@ -35,7 +35,7 @@
                                 <div class="card-body mt-3">
                                     <h5 class="card-title"><?= $value['judul_service'] ?></h5>
                                     <p class="card-text"><?= $value['kutipan'] ?></p>
-                                    <a href="/services/pembuatan-website" class="btn btn-dark" id="button">Learn More</a>
+                                    <a href="/services/<?= $value['slug'] ?>" class="btn btn-dark" id="button">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                                     <div class="card-body mt-3">
                                         <h5 class="card-title"><?= $value['judul_service'] ?></h5>
                                         <p class="card-text"><?= $value['kutipan'] ?></p>
-                                        <a href="/services/pembuatan-website" class="btn btn-dark" id="button">Learn More</a>
+                                        <a href="/services/<?= $value['slug'] ?>" class="btn btn-dark" id="button">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                     <div class="card-body mt-3">
                                         <h5 class="card-title"><?= $value['judul_service'] ?></h5>
                                         <p class="card-text"><?= $value['kutipan'] ?></p>
-                                        <a href="/services/pembuatan-website" class="btn btn-dark" id="button">Learn More</a>
+                                        <a href="/services/<?= $value['slug'] ?>" class="btn btn-dark" id="button">Learn More</a>
                                     </div>
                                 </div>
                             </div>

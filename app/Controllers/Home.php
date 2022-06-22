@@ -20,7 +20,6 @@ class Home extends BaseController
     }
 
     public function index()
-
     {
         $data = [
             'title' => 'HOME',
@@ -29,7 +28,6 @@ class Home extends BaseController
         return view('home/index', $data);
     }
     public function services()
-
     {
         $data = [
             'title' => 'SERVICES',
@@ -38,7 +36,6 @@ class Home extends BaseController
         return view('home/services', $data);
     }
     public function talk()
-
     {
         $data = [
             'title' => 'LETS TALK'
@@ -46,7 +43,6 @@ class Home extends BaseController
         return view('home/lets-talk', $data);
     }
     public function portfolio()
-
     {
         $model = new PortfolioModel();
         $data = [
@@ -55,8 +51,8 @@ class Home extends BaseController
         ];
         return view('home/portfolio', $data);
     }
-    public function blog()
 
+    public function blog()
     {
         $model = new BlogModel();
         $data = [
@@ -66,10 +62,37 @@ class Home extends BaseController
         return view('home/blog', $data);
     }
 
-    public function sendMail() 
+    // detail portofolio
+
+    public function detail_portfolio($slug)
+    {
+        $model = new PortfolioModel();
+        $data = [
+            'title' => 'Detail Portfolio',
+            'portfolio' => $model->getPortfolio($slug)
+        ];
+        return view('portfolio/detail-portfolio', $data);
+    }
+
+    //end detail portofolio
+    // detail services
+
+    public function detail_services($slug)
+    {
+        $model = new ServicesModel();
+        $data = [
+            'title' => 'Detail Services',
+            'services' => $model->getservices($slug)
+        ];
+        return view('services/detail-services', $data);
+    }
+
+    //end detail service
+
+    public function sendMail()
     {
         if (isset($_POST['kirim'])) {
-            
+
             $nama = $this->request->getPost('nama');
             $email = $this->request->getPost('email');
             $subjek = $this->request->getPost('subjek');
@@ -93,21 +116,21 @@ class Home extends BaseController
             $refreshToken = '1//0gor-6-ZV4uncCgYIARAAGBASNwF-L9IrKo-2L4r_seC59u7J_-iqwpoim7XVr_3tXy5wxwyl1bM2HZXpMqTdSG-uWe2EIes5tks';
 
             $provider = new Google(['clientId' => $clientId, 'clientSecret' => $clientSecret]);
-            $mail->setOAuth(new OAuth(['provider' => $provider,'clientId' => $clientId,'clientSecret' => $clientSecret,'refreshToken' => $refreshToken,'userName' => $email_send,]));
+            $mail->setOAuth(new OAuth(['provider' => $provider, 'clientId' => $clientId, 'clientSecret' => $clientSecret, 'refreshToken' => $refreshToken, 'userName' => $email_send,]));
 
             //change from this 
             $mail->setFrom($email_send, $nama);
             $mail->addAddress('mekarlaserc@gmail.com');
             $mail->addReplyTo($email, $nama);
-            $mail->Subject = 'Pesan dari '.$nama;
+            $mail->Subject = 'Pesan dari ' . $nama;
 
             $mail->isHTML(true);
-            $mail->Body = 
-            '<div style="margin: auto; border-radius: 25px; border: 2px solid #80aaff; padding: 20px; width: auto; height: max-content;">
-                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Email: '.$email.'</p>
-                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Nama : '.$nama.'</p>
-                <p style="font-family: Arial, Helvetica, sans-serif;color: #262626;">Subjek : '.$subjek.'</p>
-                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Pesan : '.$pesan.'</p>
+            $mail->Body =
+                '<div style="margin: auto; border-radius: 25px; border: 2px solid #80aaff; padding: 20px; width: auto; height: max-content;">
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Email: ' . $email . '</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Nama : ' . $nama . '</p>
+                <p style="font-family: Arial, Helvetica, sans-serif;color: #262626;">Subjek : ' . $subjek . '</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Pesan : ' . $pesan . '</p>
             </div>';
             $mail->AltBody = $pesan;
 
@@ -121,11 +144,8 @@ class Home extends BaseController
             }
 
             echo json_encode($response, JSON_PRETTY_PRINT);
-
         } else {
             return redirect()->to('/talk');
         }
-        
-        
     }
 }

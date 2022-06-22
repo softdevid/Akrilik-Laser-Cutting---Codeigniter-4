@@ -3,12 +3,9 @@
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -27,13 +24,11 @@
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
@@ -78,7 +73,7 @@
                             <h5 class="card-title">Pembuatan Website</h5>
                             <p class="card-text">Website menjadi fasilitas sangat penting untuk pemasaran dan scale up
                                 bisnis di era digital ini. Miliki sekarang!</p>
-                            <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            <a href="/services/pembuatan-website" class="btn btn-dark" id="button">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +84,7 @@
                             <h5 class="card-title">Produksi huruf timbul</h5>
                             <p class="card-text">Huruf timbul kini menjadi bagian penting dalam Branding Offline.
                                 Banyaknya manfaat dan kegunaan menjadikan huruf timbul makin populer.</p>
-                            <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            <a href="/services/pembuatan-huruf-timbul" class="btn btn-dark" id="button">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +95,7 @@
                             <h5 class="card-title">Produksi Neon Box</h5>
                             <p class="card-text">Neon box merupakan produk paling penting yang harus dimiliki setiap
                                 pengusaha baik pemula maupun profesional. Miliki sekarang!</p>
-                            <a href="#" class="btn btn-dark" id="button">Learn More</a>
+                            <a href="/services/pembuatan-neon-box" class="btn btn-dark" id="button">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -116,9 +111,8 @@
         </div>
         <div class="py-5 container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down"
-                        data-aos-duration="1000">
+                <!-- <div class="col">
+                    <div class="card bg-black overlay card-hover1 border-0" data-aos="fade-down" data-aos-duration="1000">
                         <a href="#" class="text-white">
                             <img src="/img/portfolio/portfolio.png" id="gambar" class="card-img" alt="Portfolio">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -129,8 +123,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down"
-                        data-aos-duration="1000" data-aos-delay="100">
+                    <div class="card bg-black overlay card-hover2 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
                         <a href="#" class="text-white">
                             <img src="/img/portfolio/kanopi.jpg" id="gambar" class="card-img" alt="Kanopi">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -141,8 +134,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down"
-                        data-aos-duration="1000" data-aos-delay="150">
+                    <div class="card bg-black overlay card-hover3 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
                         <a href="#" class="text-white">
                             <img src="/img/portfolio/pagarbesi.jpg" id="gambar" class="card-img" alt="Pagar Besi">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -151,12 +143,11 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <div class="col">
-                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
-                        data-aos-duration="1000" data-aos-delay="200">
-                        <a href="#" class="text-white">
-                            <img src="/img/services/3.png" id="gambar" class="card-img" alt="Huruf Timbul">
+                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                        <a href="/portfolio/foto-bali" class="text-white">
+                            <img src="/img/portfolio/3.png" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
                                 <h5>Foto Bali</h5>
                                 <span>Huruf Timbul</span>
@@ -165,10 +156,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down"
-                        data-aos-duration="1000" data-aos-delay="250">
-                        <a href="#" class="text-white">
-                            <img src="/img/services/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                    <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                        <a href="/portfolio/neon-box-smk" class="text-white">
+                            <img src="/img/portfolio/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
                                 <h5>Neonbox</h5>
                                 <span>Neonbox</span>
@@ -177,10 +167,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down"
-                        data-aos-duration="1000" data-aos-delay="300">
-                        <a href="#" class="text-white">
-                            <img src="/img/services/reklame.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
+                    <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                        <a href="/portfolio/web-instansi" class="text-white">
+                            <img src="/img/portfolio/web.png" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
                                 <h5>Papan Reklame (Billboard)</h5>
                                 <span>Project Reklame</span>

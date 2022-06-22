@@ -11,12 +11,12 @@ class PortfolioModel extends Model
     protected $primaryKey = 'id';
 
 
-    public function getPortfolio($id = false)
+    public function getPortfolio($slug = false)
     {
-        if ($id === false) {
+        if ($slug === false) {
             return $this->findAll();
         } else {
-            return $this->Where(['id' => $id])->first();
+            return $this->Where(['slug' => $slug])->first();
         }
     }
 }

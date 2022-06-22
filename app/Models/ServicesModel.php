@@ -11,12 +11,12 @@ class ServicesModel extends Model
     protected $primaryKey = 'id';
 
 
-    public function getServices($id = false)
+    public function getServices($slug = false)
     {
-        if ($id === false) {
+        if ($slug === false) {
             return $this->findAll();
         } else {
-            return $this->Where(['id' => $id])->first();
+            return $this->Where(['slug' => $slug])->first();
         }
     }
 }
