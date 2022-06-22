@@ -52,3 +52,7 @@ FROM `team`', [], false)
 10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
 >>>>>>> 8720fa020081d71a40bdaae93a5e8f894b6e697f
+ERROR - 2022-06-22 03:53:38 --> Unknown column 'deskrispi' in 'field list'
+ERROR - 2022-06-22 03:55:00 --> Unknown column 'deskrispi' in 'field list'
+ERROR - 2022-06-22 03:55:58 --> Unknown column 'deskrispi' in 'field list'
+ERROR - 2022-06-22 04:00:11 --> Unknown column 'deskripsi' in 'field list'

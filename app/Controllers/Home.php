@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\PortfolioModel;
-
+use App\Models\ServicesModel;
 use App\Models\BlogModel;
 
 class Home extends BaseController
@@ -12,6 +12,7 @@ class Home extends BaseController
     {
         $this->PortfolioModel = new PortfolioModel();
         $this->BlogModel = new BlogModel();
+        $this->ServicesModel = new ServicesModel();
     }
 
     public function index()
@@ -27,7 +28,8 @@ class Home extends BaseController
 
     {
         $data = [
-            'title' => 'SERVICES'
+            'title' => 'SERVICES',
+            'services' => $this->ServicesModel->getServices()
         ];
         return view('home/services', $data);
     }
