@@ -101,7 +101,7 @@ class Home extends BaseController
 
             $mail->isHTML(true);
             $mail->Body = 
-            '<div style="margin: auto; border-radius: 25px; border: 2px solid #80aaff; padding: 20px; width: 100%; height: max-content;">
+            '<div style="margin: auto; border-radius: 25px; border: 2px solid #80aaff; padding: 20px; width: auto; height: max-content;">
                 <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Email: zaaaafl@gmail.com</p>
                 <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Nama : Dzaky Fadli Firmansyah</p>
                 <p style="font-family: Arial, Helvetica, sans-serif;color: #262626;">Subjek : bisakah saya beli helm?</p>
