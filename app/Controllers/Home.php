@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\PortfolioModel;
+
 use App\Models\BlogModel;
 
 class Home extends BaseController
@@ -34,8 +36,10 @@ class Home extends BaseController
     public function portfolio()
 
     {
+        $model = new PortfolioModel();
         $data = [
-            'title' => 'PORTFOLIO'
+            'title' => 'PORTFOLIO',
+            'portfolio' => $model->getPortfolio()
         ];
         return view('home/portfolio', $data);
     }
