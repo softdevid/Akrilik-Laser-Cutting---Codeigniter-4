@@ -1,0 +1,16 @@
+{
+    "web": {
+        "client_id": "734549949759-ld6k8mhde7aueo5b86o8fbg9ceftvs3n.apps.googleusercontent.com",
+        "project_id": "phpmailer22-354004",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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",
+        "redirect_uris": [
+            "http://localhost/phpmailer/get_oauth_token.php"
+        ]
+    },
+    "token": {
+        "refresh-token": "1//0gor-6-ZV4uncCgYIARAAGBASNwF-L9IrKo-2L4r_seC59u7J_-iqwpoim7XVr_3tXy5wxwyl1bM2HZXpMqTdSG-uWe2EIes5tks"
+    }
+}
