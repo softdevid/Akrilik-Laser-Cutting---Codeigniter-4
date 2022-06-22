@@ -24,7 +24,7 @@
                         Mekar Laser hadir untuk menjadi Solusi.</p>
                 </div>
                 <div class="col-6 col-lg-3 mb-3 text-">
-                    <hr class="line3">
+                    <hr class="line">
                     <h5>LATEST ARTICLE</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2 mt-5">
@@ -48,7 +48,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3 mb-3 text-dark">
-                    <hr class="line3">
+                    <hr class="line">
                     <h5>USEFUL LINKS</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="/portofolio" class="nav-link"> Portofolio</a></li>
@@ -61,7 +61,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-lg-3 mb-3 text-dark">
-                    <hr class="line3">
+                    <hr class="line">
                     <h5>Partner</h5>
                     <ul class="list-unstyled style-a">
                         <li class="mb-2"><a href="#" class="nav-link">Bima Helm</a></li>
