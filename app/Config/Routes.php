@@ -38,6 +38,8 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('/services', 'Home::services');
 $routes->get('/talk', 'Home::talk');
+$routes->post('/talk/send-mail', 'Home::sendMail');
+$routes->get('/talk/send-mail', 'Home::sendMail');
 $routes->get('/portfolio', 'Home::portfolio');
 $routes->get('/blog', 'Home::blog');
 $routes->get('/blog', 'Home::blog');
