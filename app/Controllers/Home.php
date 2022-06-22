@@ -97,7 +97,7 @@ class Home extends BaseController
             $mail->setFrom($email_send, $nama);
             $mail->addAddress('mekarlaserc@gmail.com');
             $mail->addReplyTo($email, $nama);
-            $mail->Subject = 'Pesan dari '.$subjek;
+            $mail->Subject = 'Pesan dari '.$nama;
 
             $mail->isHTML(true);
             $mail->Body = 
