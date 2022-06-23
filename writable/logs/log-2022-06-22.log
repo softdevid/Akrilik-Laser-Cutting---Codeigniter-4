@@ -213,6 +213,78 @@ Content-Type: text/html; charset=us-ascii
  7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+<<<<<<< HEAD
+ERROR - 2022-06-22 21:36:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-22 21:36:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `portfolio`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PortfolioModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\PortfolioModel->getPortfolio()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-22 21:37:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-22 21:37:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `portfolio`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PortfolioModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\PortfolioModel->getPortfolio()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-06-22 21:37:43 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-22 21:37:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `portfolio`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\PortfolioModel.php(17): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(26): App\Models\PortfolioModel->getPortfolio()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 22:16:37 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\blog\detail-blog.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/detail-blog', [], true)
+ 4 APPPATH\Controllers\Blog.php(16): view('blog/detail-blog', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-22 22:19:39 --> Call to undefined function form_open_multipart()
+in APPPATH\Views\blog\detail-blog.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('blog/detail-blog', [], true)
+ 4 APPPATH\Controllers\Blog.php(16): view('blog/detail-blog', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+=======
 >>>>>>> eb35ebde1ee5b31047b2e55caf5ead9571016ad1
 <<<<<<< HEAD
 CRITICAL - 2022-06-22 21:25:48 --> Invalid file: home/product.php
@@ -250,6 +322,7 @@ in APPPATH\Views\home\product.php on line 87.
 10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
 =======
 >>>>>>> df44da1d35ee18435ef69b6758e128e9bd499ad7
+<<<<<<< HEAD
 ERROR - 2022-06-22 22:56:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it
 CRITICAL - 2022-06-22 22:56:02 --> Unable to connect to the database.
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it
@@ -314,3 +387,6 @@ FROM `portfolio`', [], false)
  9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+=======
+>>>>>>> 3126fd8a79d6fa237b046bb67e7c2787df0bd66c
+>>>>>>> fcaa2fedf463f41b54b4eef6b3395e9b6f93ee68

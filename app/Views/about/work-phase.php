@@ -21,7 +21,7 @@
                 <div class="card-body">
                     <h3 class="card-title pt-5">Pertama, izinkan kami mengenal anda</h3>
                     <p class="card-text pt-3">Halo calon klien, mungkin Anda bertanya bagaimana cara order jasa kami di
-                        Alegra Advertising? Izinkan kami berkenalan dengan Anda terlebih dahulu. Kemudian konsultasikan
+                        Mekar Cutting Digital? Izinkan kami berkenalan dengan Anda terlebih dahulu. Kemudian konsultasikan
                         kebutuhan atau project Anda pada Customer Support kami.</p>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h3 class="card-title pt-5">Survey</h3>
                     <p class="card-text pt-3">Apabila Anda didalam kota maka Anda akan dijadwalkan untuk bertemu dengan
-                        perwakilan tim Alegra untuk berdiskusi dan orientasi lokasi dengan mengambil ukuran lokasi serta
+                        perwakilan tim Mekar Cutting Digital untuk berdiskusi dan orientasi lokasi dengan mengambil ukuran lokasi serta
                         akan dijelaskan lebih detail tentang tahapan perencanaan.</p>
                 </div>
             </div>
@@ -87,8 +87,8 @@
                         ketika setelah pemasangan untuk memastikan hasilnya sesuai dengan rencana.</p>
                 </div>
             </div>
-
         </div>
     </div>
+</div>
 
-    <?= $this->endSection(); ?>
+<?= $this->endSection(); ?>

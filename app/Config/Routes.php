@@ -43,7 +43,7 @@ $routes->post('/talk/send-mail', 'Home::sendMail');
 $routes->get('/talk/send-mail', 'Home::sendMail');
 $routes->get('/portfolio', 'Home::portfolio');
 $routes->get('/blog', 'Home::blog');
-$routes->get('/blog', 'Home::blog');
+$routes->get('/add-blog', 'Blog::index');
 $routes->get('/profile', 'About::profile');
 $routes->get('/team', 'About::team');
 $routes->get('/work-phase', 'About::phase');
