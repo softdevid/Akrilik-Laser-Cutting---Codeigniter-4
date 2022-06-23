@@ -563,3 +563,10 @@ span.text-uppercase {
   font-weight: bold;
   padding-top: 5rem;
 }
+.header-produk {
+  width: 85%;
+}
+
+.isi-header {
+  padding-top: 6rem;
+}

@@ -3,9 +3,12 @@
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -24,11 +27,13 @@
             </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
@@ -145,7 +150,8 @@
                     </div>
                 </div> -->
                 <div class="col">
-                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="card bg-black overlay card-hover4 border-0" data-aos="fade-down"
+                        data-aos-duration="1000" data-aos-delay="200">
                         <a href="/portfolio/foto-bali" class="text-white">
                             <img src="/img/portfolio/3.png" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -156,7 +162,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
+                    <div class="card bg-black overlay card-hover5 border-0" data-aos="fade-down"
+                        data-aos-duration="1000" data-aos-delay="250">
                         <a href="/portfolio/neon-box-smk" class="text-white">
                             <img src="/img/portfolio/neonbox.jpg" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
@@ -167,7 +174,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="card bg-black overlay card-hover6 border-0" data-aos="fade-down"
+                        data-aos-duration="1000" data-aos-delay="300">
                         <a href="/portfolio/web-instansi" class="text-white">
                             <img src="/img/portfolio/web.png" id="gambar" class="card-img" alt="Huruf Timbul">
                             <div class="overlay-content card-img-overlay text-bottom">
