@@ -15,19 +15,23 @@ class Blog extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'blog_title' => [
+            'judul' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
-            'blog_slug' => [
+            'slug' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
-            'blog_description' => [
+            'isi' => [
                 'type' => 'TEXT',
                 'null' => true,
             ],
-            'image' => [
+            'kutipan' => [
+                'type' => 'TEXT',
+                'null' => true,
+            ],
+            'gambar' => [
                 'type' => 'VARCHAR',
                 'constraint' => 150,
             ],
