@@ -156,6 +156,7 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+<<<<<<< HEAD
 ERROR - 2022-06-22 11:17:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it
 CRITICAL - 2022-06-22 11:18:45 --> Trying to access array offset on value of type null
 in APPPATH\Views\services\detail-services.php on line 5.
@@ -169,3 +170,47 @@ in APPPATH\Views\services\detail-services.php on line 5.
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+=======
+CRITICAL - 2022-06-22 18:12:36 --> SMTP Error: Could not connect to SMTP host.
+in VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php on line 2207.
+ 1 VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php(1996): PHPMailer\PHPMailer\PHPMailer->smtpConnect([])
+ 2 VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 22 Jun 2022 18:12:36 -0500
+To: mekarlaserc@gmail.com
+From: ardianto <tesssany@gmail.com>
+Reply-To: ardianto <ardianto8306@gmail.com>
+Subject: Pesan dari ardianto
+Message-ID: <rVmPC8ZnIbCx9YynLTrnlRPRwHJ41BlKkmXGUm4CXg@localhost>
+X-Mailer: PHPMailer 6.6.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_rVmPC8ZnIbCx9YynLTrnlRPRwHJ41BlKkmXGUm4CXg"
+Content-Transfer-Encoding: 8bit
+
+', 'This is a multi-part message in MIME format.
+
+--b1_rVmPC8ZnIbCx9YynLTrnlRPRwHJ41BlKkmXGUm4CXg
+Content-Type: text/plain; charset=us-ascii
+
+tes ajalah
+
+--b1_rVmPC8ZnIbCx9YynLTrnlRPRwHJ41BlKkmXGUm4CXg
+Content-Type: text/html; charset=us-ascii
+
+<div style="margin: auto; border-radius: 25px; border: 2px solid #80aaff; padding: 20px; width: auto; height: max-content;">
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Email: ardianto8306@gmail.com</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Nama : ardianto</p>
+                <p style="font-family: Arial, Helvetica, sans-serif;color: #262626;">Subjek : Test</p>
+                <p style="font-family: Arial, Helvetica, sans-serif; color: #262626;">Pesan : tes ajalah</p>
+            </div>
+
+
+--b1_rVmPC8ZnIbCx9YynLTrnlRPRwHJ41BlKkmXGUm4CXg--
+')
+ 3 VENDORPATH\phpmailer\phpmailer\src\PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+ 4 APPPATH\Controllers\Home.php(139): PHPMailer\PHPMailer\PHPMailer->send()
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->sendMail()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+>>>>>>> eb35ebde1ee5b31047b2e55caf5ead9571016ad1

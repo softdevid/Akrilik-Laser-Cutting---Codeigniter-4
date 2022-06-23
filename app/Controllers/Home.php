@@ -26,6 +26,7 @@ class Home extends BaseController
             'portfolio' => $this->PortfolioModel->getPortfolio()
         ];
         return view('home/index', $data);
+        // return view('welcome_message', $data);
     }
     public function services()
     {
@@ -144,6 +145,7 @@ class Home extends BaseController
             }
 
             echo json_encode($response, JSON_PRETTY_PRINT);
+            return redirect()->to('/talk');
         } else {
             return redirect()->to('/talk');
         }
