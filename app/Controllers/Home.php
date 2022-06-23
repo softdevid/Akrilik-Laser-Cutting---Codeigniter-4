@@ -36,6 +36,13 @@ class Home extends BaseController
         ];
         return view('home/services', $data);
     }
+    public function product()
+    {
+        $data = [
+            'title' => 'PRODUCT',
+        ];
+        return view('home/product', $data);
+    }
     public function talk()
     {
         $data = [
