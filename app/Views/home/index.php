@@ -10,17 +10,17 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div id="carousel-gambar">
-                <img src="/img/carousel/1.jpg" class="d-block w-100" alt="...">
+                <img src="/img/carousel/4.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <div class="carousel-item">
             <div id="carousel-gambar">
-                <img src="/img/carousel/2.jpg" class="d-block w-100" alt="...">
+                <img src="/img/carousel/5.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <div class="carousel-item">
             <div id="carousel-gambar">
-                <img src="/img/carousel/3.jpg" class="d-block w-100" alt="...">
+                <img src="/img/carousel/6.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
     </div>

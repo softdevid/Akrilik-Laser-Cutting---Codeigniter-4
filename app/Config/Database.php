@@ -34,7 +34,7 @@ class Database extends Config
         'DSN'      => '',
         'hostname' => 'localhost',
         'username' => 'root',
-        'password' => '',
+        'password' => 'Dzaky654',
         'database' => 'mekarlaser',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
