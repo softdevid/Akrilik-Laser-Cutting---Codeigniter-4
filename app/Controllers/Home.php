@@ -8,6 +8,7 @@ use App\Models\BlogModel;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\OAuth;
+use PHPMailer\PHPMailer\Exception;
 use League\OAuth2\Client\Provider\Google;
 
 class Home extends BaseController
@@ -106,8 +107,6 @@ class Home extends BaseController
             $subjek = $this->request->getPost('subjek');
             $pesan = $this->request->getPost('pesan');
 
-            $response = [];
-
             $mail = new PHPMailer(true);
 
             $mail->isSMTP();
@@ -142,17 +141,15 @@ class Home extends BaseController
             </div>';
             $mail->AltBody = $pesan;
 
-            //send the message, check for errors
-            if (!$mail->send()) {
-                $response['status'] = 'failed';
-                $response['message'] = $mail->ErrorInfo;
-            } else {
-                $response['status'] = 'success';
-                $response['message'] = 'berhasil mengirim email';
+            try {
+                $mail->send();
+                session()->setFlashdata('success', 'berhasil mengirim email');
+                return redirect()->to('/talk');
+            } catch (Exception $e) {
+                session()->setFlashdata('failed', $mail->ErrorInfo);
+            } finally {
+                return redirect()->to('/talk');
             }
-
-            echo json_encode($response, JSON_PRETTY_PRINT);
-            return redirect()->to('/talk');
         } else {
             return redirect()->to('/talk');
         }
