@@ -1,6 +1,7 @@
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
-<div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/services/service.png); padding: 120px; width: 100%;">
+<div class="jumbotron bg-cover text-white"
+    style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/services/service.png); padding: 120px; width: 100%;">
     <div class="container">
         <h1 class="display-7"><?= $services['judul_service'] ?></h1>
         <p class="lead"><?= $services['kutipan'] ?></p>
@@ -10,7 +11,8 @@
     <div class="row profile-p">
         <div class="col-md-9 p-3">
             <article>
-                <img src="/img/services/<?= $services['gambar'] ?>" class="card-img-top" alt="" style="min-width: 100%; max-height: 580px;">
+                <img src="/img/services/<?= $services['gambar'] ?>" class="card-img-top" alt=""
+                    style="min-width: 100%; max-height: 580px;">
             </article>
             <article class="pt-3">
                 <!-- <p>Jasa Pembuatan Website Profesional, merupakan jasa bikin website yang terbaik berbasis di kota
@@ -74,21 +76,75 @@
         <div class="col-md-3 p-3">
             <div class="container">
                 <div class="row text-center">
-                    <div class="services-category pt-2 border-2 active">
+                    <div class="services-category1 kategori1 pt-2 border-2 active">
                         <a href="/servies" class="nav-link">
                             <h5>All</h5></i>
                         </a>
                     </div>
-                    <div class="services-category border-2 pt-2">
+                    <div class="services-category2 kategori2 border-2 pt-2">
                         <a href="/services/services-category/advertising" class="nav-link">
                             <h5>Advertising</h5></i>
                         </a>
                     </div>
-                    <div class="services-category pt-2 border-2 active">
+                    <div class="services-category3 kategori3 pt-2 border-2 active">
                         <a href="/services/services-category/digitalmarketing" class="nav-link">
                             <h5>Digital Marketting</h5></i>
                         </a>
                     </div>
+                </div>
+                <div class="row pt-3">
+                    <hr class="line1">
+                    <span class="text-uppercase judul-aside">social</span>
+                    <br>
+                    <div class="social pb-3">
+                        <div class="row pt-4 icon-aside">
+                            <a href="#" class="nav-link"><i class="fa-brands fa-youtube-square"></i></a>
+                            &nbsp;
+                            <a class="nav-link" href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            &nbsp;
+                            <a class="nav-link" href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                            &nbsp;
+                            <a class="nav-link" href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        </div>
+                    </div>
+                    <hr class="line2">
+                    <span class="text-uppercase sub-aside">latest case studies</span>
+                    <article class="pt-3 sub-item1">
+                        <a href="#" class="sub-header">
+                            <h6 class="fw-bold">Pagar Besi</h6>
+                        </a>
+                        <a href="#" class="sub-item">
+                            Pekerjaan Besi dan Alumunium
+                        </a>
+                        <hr>
+                    </article>
+                    <article class="sub-item2">
+                        <a href="#" class="sub-header">
+                            <h6 class="fw-bold">Kanopi</h6>
+                        </a>
+                        <a href="#" class="sub-item">
+                            Pekerjaan Besi dan Alumunium
+                        </a>
+                        <hr>
+                    </article>
+                    <article class="sub-item3">
+                        <a href="#" class="sub-header">
+                            <h6 class="fw-bold">Prototype IOT</h6>
+                        </a>
+                        <a href="#" class="sub-item">
+                            Prototype IOT & Digital Creative
+                        </a>
+                        <hr>
+                    </article>
+                    <article class="sub-item4">
+                        <a href="#" class="sub-header">
+                            <h6 class="fw-bold">Food App Dekstop</h6>
+                        </a>
+                        <a href="#" class="sub-item">
+                            Digital Creative
+                        </a>
+                        <hr>
+                    </article>
                 </div>
             </div>
         </div>
