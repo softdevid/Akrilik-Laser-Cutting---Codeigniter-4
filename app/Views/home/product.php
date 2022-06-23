@@ -55,33 +55,32 @@
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active button" id="pills-all-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all"
-                            aria-selected="true">All</button>
+                            aria-selected="true">BENING</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link button" id="pills-timbul-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-timbul" type="button" role="tab" aria-controls="pills-timbul"
-                            aria-selected="false">Huruf Timbul</button>
+                            aria-selected="false">PUTIH SUSU DAN PUTIH SOLID</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link button" id="pills-neonbox-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-neonbox" type="button" role="tab" aria-controls="pills-neonbox"
-                            aria-selected="false">Neonbox</button>
+                            aria-selected="false">WARNA TRANSPARAN</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link button" id="pills-reklame-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-reklame" type="button" role="tab" aria-controls="pills-reklame"
-                            aria-selected="false">Project
-                            Reklame</button>
+                            aria-selected="false">WARNA TINTED</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link button" id="pills-digitalcreative-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-digitalcreative" type="button" role="tab"
-                            aria-controls="pills-digitalcreative" aria-selected="false">Digital Creative</button>
+                            aria-controls="pills-digitalcreative" aria-selected="false">WARNA SOLID DAN BURAM</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link button" id="pills-iot-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot"
-                            aria-selected="false">Prototype IOT</button>
+                            aria-selected="false">WARNA FLUORESCENT / NEON</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
