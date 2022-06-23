@@ -336,6 +336,7 @@ body {
 hr.line1 {
   border: 1px solid red;
 }
+
 hr.line {
   border: 1px solid red;
 }
@@ -389,12 +390,14 @@ span.text-uppercase {
   text-decoration: none;
   height: 50px;
 }
+
 .kategori2 {
   background: rgb(197, 194, 194);
   color: black;
   text-decoration: none;
   height: 50px;
 }
+
 .kategori3 {
   background: rgb(197, 194, 194);
   color: black;
@@ -407,11 +410,13 @@ span.text-uppercase {
   color: white;
   text-decoration: none;
 }
+
 .services-category2.active {
   background: #173052;
   color: white;
   text-decoration: none;
 }
+
 .services-category3.active {
   background: #173052;
   color: white;
@@ -421,9 +426,11 @@ span.text-uppercase {
 .kategori1 h5 {
   margin: 10px auto;
 }
+
 .kategori2 h5 {
   margin: 10px auto;
 }
+
 .kategori3 h5 {
   margin: 10px auto;
 }
@@ -447,6 +454,7 @@ span.text-uppercase {
   color: #0a2144;
   padding: 0;
 }
+
 .sub-item2 .sub-header {
   text-decoration: none;
   color: #000000;
@@ -466,6 +474,7 @@ span.text-uppercase {
   color: #0a2144;
   padding: 0;
 }
+
 .sub-item3 .sub-header {
   text-decoration: none;
   color: #000000;
@@ -485,6 +494,7 @@ span.text-uppercase {
   color: #0a2144;
   padding: 0;
 }
+
 .sub-item4 .sub-header {
   text-decoration: none;
   color: #000000;
@@ -504,6 +514,7 @@ span.text-uppercase {
   color: #0a2144;
   padding: 0;
 }
+
 .sub-item .sub-header {
   text-decoration: none;
   color: #000000;
@@ -548,6 +559,7 @@ span.text-uppercase {
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.5s;
 }
+
 .judul-kartu:hover {
   text-decoration: none;
   color: rgb(13, 101, 201);
@@ -558,15 +570,32 @@ span.text-uppercase {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
+
 .judul-talk {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding-top: 5rem;
 }
+
 .header-produk {
   width: 85%;
 }
 
 .isi-header {
   padding-top: 6rem;
+}
+
+#contact {
+  padding: 60px 0;
+  text-align: center;
+  margin-top: -5%;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: black;
+  text-align: center;
+  margin-top: 5%;
 }

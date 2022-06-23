@@ -1,7 +1,6 @@
 <?= $this->extend('layouts/template'); ?>
 <?= $this->section('content'); ?>
-<div class="jumbotron bg-cover text-white"
-    style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/services/service.png); padding: 120px; width: 100%;">
+<div class="jumbotron bg-cover text-white" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/img/services/service.png); padding: 120px; width: 100%;">
     <div class="container">
         <h1 class="display-7"><?= $services['judul_service'] ?></h1>
         <p class="lead"><?= $services['kutipan'] ?></p>
@@ -11,8 +10,7 @@
     <div class="row profile-p">
         <div class="col-md-9 p-3">
             <article>
-                <img src="/img/services/<?= $services['gambar'] ?>" class="card-img-top" alt=""
-                    style="min-width: 100%; max-height: 580px;">
+                <img src="/img/services/<?= $services['gambar'] ?>" class="card-img-top" alt="" style="min-width: 100%; max-height: 580px;">
             </article>
             <article class="pt-3">
                 <!-- <p>Jasa Pembuatan Website Profesional, merupakan jasa bikin website yang terbaik berbasis di kota
@@ -46,6 +44,29 @@
                     <li>Membangun Komunikasi dan Interaksi</li>
                 </ol> -->
             </article>
+            <div id="contact">
+                <div class="container">
+                    <div class="row contact-info">
+                        <div class="col-md-4">
+                            <div class="icon">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <h4>ADDRESS</h4>
+                                <a href="https://goo.gl/maps/2jBDUPrU6AGCWgVC6" class="nav-link" target="_blank">Jl. Lingkar Purbalingga</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-phone" title="no hp"></i>
+                            <h4>PHONE NUMBER</h4>
+                            <a href="telp:0888787925" class="nav-link">+62 xxx-xxxx-xxxx</a>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>EMAIL</h4>
+                            <a href="mailto:website@gmail.com" class="nav-link">website@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- <article>
                 <h3 class="pt-3">Benefit Menggunakan Jasa Pembuatan Website Profesional</h3>
                 <p>Mekar Laser Cutting Digital akan memastikan investasi yang anda keluarkan untuk aset digital, yaitu
